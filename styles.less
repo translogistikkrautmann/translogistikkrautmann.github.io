@@ -1,26 +1,29 @@
-@grey_light:rgb(225,232,236);
-@grey:rgb(143, 156, 163);
+@grey_light:rgb(240,240,240);
+@grey:rgb(208, 208, 208);
 
-@content: rgb(76,76,82);
-@blue:rgb(0,0,102);
+@content: rgb(0,0,0);
+@red:rgb(167,0,0);
 
 
 body {
-  font-family: Arial, Helvetica, sans-serif,serif;
+  font-family: 'ITC Franklin Gothic LT W01 Md',Arial, Helvetica, sans-serif,serif;
   color: @content;
   *:not(i){
-    font-family: Arial, Helvetica, sans-serif important;
+    font-family: 'ITC Franklin Gothic LT W01 Md',Arial, Helvetica, sans-serif important;
   }
   background:white;
 }
-h1,h2,h3,h4{
-  font-family: Arial, Helvetica, sans-serif;
+h1{
+  font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+}
+h2,h3,h4{
+  font-family: 'ITC Franklin Gothic LT W01 Md',Arial, Helvetica, sans-serif;
 }
 a{
-  color:@blue;
+  color:@red;
   &:hover{
     text-decoration: underline;
-    color:@blue;
+    color:@red;
   }
 }
 .sy-box.topslider{
@@ -32,12 +35,12 @@ a{
   li{
     &.sy-active{
       a{
-        background:@blue!important;
+        background:@red!important;
       }
     }
     a{
       background:transparent!important;
-      border:1px solid @blue;
+      border:1px solid @red;
     }
   }
 }
@@ -50,12 +53,37 @@ blockquote{
   background:@grey_light;
 }
 header{
+  #headertelw{
+    background:@red;
+    color:white;
+    position:absolute;
+    right:1rem;
+    top:-2rem;
+    a{
+      color:white!important;
+    }
+    padding:1rem 0.5rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+      margin-right:0.5rem;
+    }
+    .elem{
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding:0 0.5rem
+    }
+  }
   background:white;
-  display:flex;
-  justify-content: space-between;
-  padding:2rem 0 0 0;
-  flex-direction: column;
-  align-items: center;
+  padding:2rem 0;
+  .headerw{
+    position:relative;
+    display:flex!important;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
   .logo{
     height:80px;
     margin:-5px 0 2rem 0;
@@ -64,16 +92,10 @@ header{
       margin:0 0 1rem 0;
     }
   }
-  #headermenuwrapper{
-    background:@blue;
-    width:100vw;
-  }
   #headermenu{
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    background:@blue;
-    width:100vw;
   }
   @media (max-width: 720px){
     padding:1rem;
@@ -97,16 +119,24 @@ header{
 }
 .headermenuitem{
   flex:0 1 auto;
-  color:white!important;
-  a{
-    color:white!important;
-  }
+  color:@content!important;
   text-align:center;
-  font-size:1.3rem;
+  font-size:1.5rem;
   line-height:3rem;
-
-  color:white!important;
+  &:hover{
+    border-bottom:2px solid @red;
+    color:@red;
+    a{
+      color:@red !important;
+    }
+    .sub-menu{
+      height:auto;
+      padding:1rem;
+    }
+  }
   a{
+    color:@content!important;
+    text-decoration:none!important;
     span{
       padding: 0 1rem;
       @media (max-width: 720px){
@@ -122,7 +152,6 @@ header{
   .sub-menu{
     display:flex;
     flex-direction:column;
-    background:@blue;
     @media (max-width: 720px){
       display:none;
     }
@@ -132,24 +161,27 @@ header{
     overflow:hidden;
     position:absolute;
     left:0;
-    line-height:1.3em;
+    
     z-index:99;
     top:2.5rem!important;
-    padding:0;
+    padding:1rem 0 0 0!important;
     .sub-menu-item{
       text-align:left;
+      background:rgba(255,255,255,0.9);
+      width:100%;
+      padding:0 1rem;
       > a{
-        color:white!important;
-        font-size:1.3rem;
+        &:hover{
+          color:@red!important;
+        }
+        color:@content!important;
+        font-size:1.2rem;
+        line-height:2rem;
       }
     }
   }
-  &:hover{
-    .sub-menu{
-      height:auto;
-      padding:1rem;
-    }
-  }
+  border-bottom:2px solid transparent;
+  
 }
 .imggal{
   .gimg{
@@ -210,260 +242,138 @@ footer{
     }
   }
 }
-.fl{
-  position:absolute;
-  z-index:9998;
-  background:url('/images/fliesen_hintergrund.png');
-  width:20vh;
-  height:20vh;
-  background-size:contain!important;
-  transform: scaleX(-1) scaleY(-1);
-}
 #home{
-  #proj{
-    margin:2rem 0;
+  #tobenw{
+    color:white;
+    padding:10vh 0 20vh 0;
+    h2{
+      font-weight:bold;
+      font-size:3.5vh;
+      letter-spacing:0.05em;
+      text-transform: uppercase;
+    }
+    .content{
+      font-size:1.4rem;
+      width:50%;
+      margin-bottom:4rem;
+    }
+    .btnlnk{
+      padding:1rem 2rem;
+      background:@red;
+      color:white!important;
+      font-size:1.7rem;
+    }
+  }
+  #untw{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:center;
     padding:2rem 0;
-    .img{
-      padding-top:100%;
+    img{
+      max-width:100%;
     }
     h2{
-      color:@blue;
-      margin-bottom:2rem;
-      font-size:2rem;
-      padding-left:4rem;
-    }
-  }
-  #leist{
-    margin:4rem 0;
-    position:relative;
-    .fl{
-      top:0;
-      left:0;
-      width:20vh;
-      height:20vh;
-      transform: scaleX(-1);
-    }
-    .bereich{
-      img{
-        width:100%;
-      }
-      h3{
-        text-align:center;
-      }
-    }
-    .contentl{
-      padding-left:5rem;
-      h3{
-        color:@grey;
-        font-size:1.2rem;
-        margin:0!important;
-      }
-      h2{
-        color:@blue;
-        margin:0 0 1rem 0!important;
-        font-size:2rem;
-      }
-      strong{
-        color:@blue;
-      }
-    }
-  }
-  #about{
-    background:white;
-    padding:2rem 4rem 3rem;
-    border-bottom:1px solid @blue;
-    position:relative;
-    margin-top:-8rem;
-    z-index:9999;
-    .fl{
-      right:0;
-      top:0;
-      width:15vh;
-      height:15vh;
-      transform:none;
-      z-index:1;
-    }
-    h1,h2{
+      font-weight:normal;
+      font-size:1.4rem;
       margin:0;
     }
-    h2{
-      color:@grey;
-      font-size:1.2rem;
-    }
     h1{
-      color:@blue;
-      margin-bottom:1rem;
-    }
-    .jahre{
-      display:flex;
-      justify-content: space-between;
-      margin:2rem 0 0 0;
-      .num{
-        padding: 1rem;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        border:1px solid @blue;
-        width:6rem;
-        margin:0rem 2rem 0 0;
-        color:@blue;
-        .z{
-          font-size:4rem;
-          line-height: 4rem;
-        }
-        .l{
-          font-size:1.5rem;
-          font-weight:bold;
-        }
-      }
-      .txt{
-        font-size:1.3rem;
-        font-weight:bold;
-        color:@blue;
-      }
-    }
-    @media (max-width: 720px){
-      padding:2rem;
-      .column{
-        &:last-child{
-          min-height:30vh!important;
-          background-position-x: center;
-        }
+      margin:1rem 0;
+      font-size:4rem;
+      strong{
+        color:@red;
       }
     }
   }
-  #slidercontainer{
-    margin:0 0 1rem;
-    position:relative;
-    .fl{
-      bottom:0;
-      left:0;
-      width:20vh;
-      height:20vh;
-      transform: scaleX(-1) scaleY(-1);
+  #fpw{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    text-align:left;
+    padding:0 0 22vw 0;
+    color:white;
+    .tw{
+      padding-right:6rem;
+      background:url(pfw.png)right top no-repeat;
+      background-size: contain;
     }
-  }
-  #slider{
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    .slideritem{
-      position:relative;
-      height:65vh!important;
-      .ptxt{
-        a{
-          text-decoration:none!important;
-        }
+    h2{
+      font-weight:normal;
+      font-size:1.4rem;
+      margin:4rem 0 0 0;
+      color:white;
+    }
+    h3{
+      font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+      margin:1rem 0;
+      font-size:4rem;
+      strong{
+        color:@red;
       }
-      .morebutton_slider{
-        border-top:1px solid @blue;
-        width:200px;
-        display:flex;
-        justify-content: flex-end;
-        > div{
-          width:100px;
-          background:@blue;
-          color:white;
-          padding:0.5rem 0.75rem;
-          font-weight:bold;
-          text-align:center;
-        }
-      }
-      &.full{
-        background-size:cover !important;
-        display:flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: flex-start;
-        .ptxt{
-          padding:2rem 10vw;
-          text-align:center;
-          .titles{
-            display:flex;
-            flex-direction: column-reverse;
-          }
-          h4{
-            font-weight:normal;
-            margin:0;
-            color:@content;
-            font-size:1.6rem;
-            text-transform:none;
-          }
-          h3{
-            color:@blue;
-            font-size:4rem;
-            text-transform:none;
-            font-weight:bold;
-            letter-spacing:0.05em;
-          }
-          @media (max-width: 720px){
-            h4{
-              font-size:1.3rem;
-              text-transform:none;
-            }
-            h3{
-              font-size:3rem;
-            }
-          }
-        }
-      }
-      &.container{
-        background-size:contain!important;
-        .ptxt{
-          position:absolute;
-          right:6rem;
-          top:1rem;
+      color:white;
+    }
+    .ui.container{
+      display:flex!important;
+      justify-content: flex-start;
+      ul{
+        margin:0;
+        padding:4rem 0 0 2rem;
+        columns:3;
+        li{
+          padding: 0.5rem 0 0.5rem 2rem;
+          list-style-type:none;
           display:flex;
-          flex-direction: column;
-          align-items: flex-end;
-          justify-content: flex-start;
-          text-align:right;
-          h4{
-            font-weight:normal;
-            margin:0;
-            color:@content;
-            font-size:1.9rem;
-            text-transform:uppercase;
-          }
-          h3{
-            color:@blue;
-            font-size:2.5rem;
-            text-transform:uppercase;
-            margin:0;
-          }
-        }
-        @media (max-width: 720px){
-          .ptxt{
-            right:0;
-            h4{
-              font-size:1.3rem;
-            }
-            h3{
-              font-size:1.8rem;
-            }
+          font-size:1.1rem;
+          &::before{
+            content: '››';
+            color:white;
+            margin:0 0.5rem 0 0;
+            font-size:2em;
+            font-weight:bold;
           }
         }
       }
-      
-      @media (max-width: 720px){
-        flex-direction:column;
-        .pimg{
-          background-size:cover!important;
-          width:100%;
-          height:30vh;
-          min-height:100px;
-        }
-        .ptxt{
-          padding:1rem 3rem;
-          width:100%;
-          h4{
-            font-weight:normal;
-            margin:0;
-          }
-          h3{
-            margin:0 0 1rem 0;
-            font-size:1.5rem;
-          }
+    }
+  }
+  #lew{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:center;
+    padding:2rem 0;
+    color:white;
+    img{
+      max-width:100%;
+    }
+    h2{
+      font-weight:normal;
+      font-size:1.4rem;
+      margin:0;
+      color:white;
+    }
+    h3{
+      font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+      margin:1rem 0;
+      font-size:4rem;
+      strong{
+        color:@red;
+      }
+      color:white;
+    }
+    .icnlist{
+      display:flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      .icn{
+        position:relative;
+        width:18%;
+        h4{
+          margin:0;
         }
       }
     }
@@ -508,177 +418,9 @@ footer{
   }
   h1{
     margin:0 0 2rem 0;
-    color:@blue;
-  }
-  .fl{
-    left:0;
-    top:0;
-    width:15vh;
-    height:15vh;
-    z-index:1;
-    transform: scaleX(-1) scaleY(1)
+    color:@red;
   }
 }
 
 .subpage{
-  &.referenzen{
-    #rgal{
-      padding:2rem 0;
-    }
-    .landinglist{
-      padding:0 0 4rem 0;
-      position:relative;
-      h3{
-        text-align:center;
-      }
-      .deco{
-        width:100vw;
-        height:20vh;
-        background:@grey_light;
-        position:absolute;
-        left:0;
-        top:50%;
-        margin-top:-10vh;
-        z-index:-1;
-      }
-      .img{
-          padding:200% 0 0 0;
-          @media (max-width: 720px){
-            padding:100% 0 0 0;
-          }
-        }
-    }
-  }
-  &.about{
-    #rgal{
-      padding:4rem 0;
-    }
-    strong{
-      color:@blue;
-    }
-    .lief{
-      text-align:center;
-      padding:4rem 0;
-    }
-    h2{
-      margin: 0 0 2rem 0;
-      color:@blue;
-    }
-    .logos{
-      margin:2rem 0 0 0;
-      display:flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      >*{
-        margin:1rem;
-        padding:50px 0 0 20%;
-      }
-    }
-  }
-  &.historie{
-    .hist{
-      &:nth-child(even){
-        background:@grey_light;
-      }
-      h2{
-        color:@blue;
-      }
-      margin:4rem 0;
-      .column{
-        text-align:center;
-        min-height:100px;
-        ul{
-          padding:0;
-          li{
-            list-style-type:none;
-          }
-        }
-      }
-      @media (max-width: 720px){
-        margin:2rem 0;
-        padding:2rem 0!important;
-        .column{
-          text-align:left;
-        }
-      }
-    }
-  }
-  &.leistungen{
-    .service{
-      margin:13rem 0;
-      @media (max-width: 720px){
-        margin:5rem 0;
-      }
-      .column.center{
-        margin:-8rem auto;
-      }
-      .left,.right{
-        div{
-          text-align: justify;
-        }
-        padding:2rem 4rem;
-        h3{
-          color:@blue;
-          @media (max-width: 720px){
-            text-align:center!important;
-          }
-        }
-      }
-      .column.left{
-        h3{
-          text-align:right;
-        }
-      }
-    }
-    .lbereiche{
-      padding:4rem 2rem;
-      img{
-        max-width:100%;
-      }
-      h2{
-        text-align:center;
-        color:@blue;
-        margin: 0 0 3rem 0;
-      }
-      h3{
-        text-align: center;
-        color:@blue;
-        margin:1rem 0;
-      }
-      ul{
-        padding:0;
-        li{
-          margin-left:1em;
-        }
-      }
-      strong{
-        color:@blue;
-      }
-    }
-  }
-  &.kontakt{
-    #mappadr{
-      position:relative;
-      margin:0 0 4rem 0;
-    }
-    #adrblock{
-      text-align:center;
-      padding:2rem;
-      background:rgba(255,255,255,0.9);
-      position:absolute;
-      left:55%;
-      top:50%;
-      margin-top:-200px;
-      z-index:9;
-      h2,strong{
-        color:@blue;
-      }
-      @media (max-width: 720px){
-position:relative;
-left:auto;
-top:auto;
-margin:0;
-      }
-    }
-  }
 }
