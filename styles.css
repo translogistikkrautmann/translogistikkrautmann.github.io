@@ -234,6 +234,12 @@ footer .column.links ul li {
 footer .column.links ul li a {
   color: #000000;
 }
+.btnlnk {
+  padding: 1rem 2rem;
+  background: #a70000;
+  color: white!important;
+  font-size: 1.7rem;
+}
 #home #tobenw {
   color: white;
   padding: 10vh 0 20vh 0;
@@ -248,12 +254,6 @@ footer .column.links ul li a {
   font-size: 1.4rem;
   width: 50%;
   margin-bottom: 4rem;
-}
-#home #tobenw .btnlnk {
-  padding: 1rem 2rem;
-  background: #a70000;
-  color: white!important;
-  font-size: 1.7rem;
 }
 #home #untw {
   display: flex;
@@ -277,6 +277,68 @@ footer .column.links ul li a {
 }
 #home #untw h1 strong {
   color: #a70000;
+}
+#home #jobsw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  padding: 6rem 0 0 0;
+  color: #000000;
+}
+#home #jobsw .cl ul {
+  margin: 0;
+  padding: 0;
+}
+#home #jobsw .cl ul li {
+  margin: 0 0 1rem 0;
+}
+#home #jobsw .cl ul li a {
+  color: #000000;
+}
+#home #jobsw .cl ul li a:hover {
+  color: #a70000;
+}
+#home #jobsw .cl .icnlist {
+  display: flex;
+}
+#home #jobsw .cl .icnlist .icn {
+  padding: 1rem;
+  max-width: 20%;
+  position: relative;
+  text-align: center;
+}
+#home #jobsw .cl .icnlist .icn img {
+  max-width: 100%;
+}
+#home #jobsw .tw {
+  padding: 0 0 2rem 6rem;
+  background: url(pfr.png) left bottom no-repeat;
+  background-size: contain;
+}
+#home #jobsw h2 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 4rem 0 0 0;
+  color: #000000;
+}
+#home #jobsw h3 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: #000000;
+}
+#home #jobsw h3 strong {
+  color: #a70000;
+}
+#home #jobsw .ui.container {
+  display: flex!important;
+  justify-content: space-between;
+}
+#home #jobsw .btnlnk {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
 }
 #home #fpw {
   display: flex;

@@ -242,6 +242,12 @@ footer{
     }
   }
 }
+.btnlnk{
+  padding:1rem 2rem;
+  background:@red;
+  color:white!important;
+  font-size:1.7rem;
+}
 #home{
   #tobenw{
     color:white;
@@ -256,12 +262,6 @@ footer{
       font-size:1.4rem;
       width:50%;
       margin-bottom:4rem;
-    }
-    .btnlnk{
-      padding:1rem 2rem;
-      background:@red;
-      color:white!important;
-      font-size:1.7rem;
     }
   }
   #untw{
@@ -285,6 +285,71 @@ footer{
       strong{
         color:@red;
       }
+    }
+  }
+  #jobsw{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    text-align:left;
+    padding:6rem 0 0 0;
+    color:@content;
+    .cl{
+      ul{
+        margin:0;
+        padding:0;
+        li{
+          a{
+            color:@content;
+            &:hover{
+              color:@red;
+            }
+          }
+          margin:0 0 1rem 0;
+        }
+      }
+      .icnlist{
+        display:flex;
+        .icn{
+          padding:1rem;
+          max-width:20%;
+          position:relative;
+          text-align:center;
+          img{
+            max-width:100%;
+          }
+        }
+      }
+    }
+    .tw{
+      padding:0 0 2rem 6rem;
+      background:url(pfr.png)left bottom no-repeat;
+      background-size: contain;
+    }
+    h2{
+      font-weight:normal;
+      font-size:1.4rem;
+      margin:4rem 0 0 0;
+      color:@content;
+    }
+    h3{
+      font-family: 'ITC Franklin Gothic LT W01 DmC',Arial, Helvetica, sans-serif;
+      margin:1rem 0;
+      font-size:4rem;
+      strong{
+        color:@red;
+      }
+      color:@content;
+    }
+    .ui.container{
+      display:flex!important;
+      justify-content: space-between;
+      
+    }
+    .btnlnk{
+      padding:0.5rem 1rem;
+            font-size:1.4rem;
     }
   }
   #fpw{
