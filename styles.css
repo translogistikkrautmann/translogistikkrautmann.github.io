@@ -397,8 +397,12 @@ footer .column.links ul li a {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0 4rem 0;
   color: white;
+}
+#home #lew .btnlnk {
+  position: absolute;
+  bottom: -5.5rem;
 }
 #home #lew img {
   max-width: 100%;
@@ -430,6 +434,9 @@ footer .column.links ul li a {
 }
 #home #lew .icnlist .icn h4 {
   margin: 0;
+}
+#home #lew .ui.container {
+  position: relative;
 }
 .nopadding {
   padding: 0!important;
