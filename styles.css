@@ -70,11 +70,27 @@ header #headertelw .elem {
   align-items: center;
   padding: 0 0.5rem;
 }
+@media (max-width: 720px) {
+  header #headertelw {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100vw;
+    justify-content: space-between;
+  }
+}
 header .headerw {
   position: relative;
   display: flex!important;
   justify-content: space-between;
   align-items: flex-end;
+}
+@media (max-width: 720px) {
+  header .headerw {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 header .logo {
   height: 80px;
@@ -82,8 +98,21 @@ header .logo {
 }
 @media (max-width: 720px) {
   header .logo {
-    height: 40px;
-    margin: 0 0 1rem 0;
+    height: 80px;
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 720px) {
+  header .logow {
+    display: none;
+  }
+}
+header .logomobile {
+  display: none;
+}
+@media (max-width: 720px) {
+  header .logomobile {
+    display: block;
   }
 }
 header #headermenu {
@@ -93,7 +122,7 @@ header #headermenu {
 }
 @media (max-width: 720px) {
   header {
-    padding: 1rem;
+    padding: 0 0 1rem 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -122,6 +151,12 @@ header #headermenu {
   position: relative;
   z-index: 100;
   border-bottom: 2px solid transparent;
+}
+@media (max-width: 720px) {
+  .headermenuitem {
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
 }
 .headermenuitem:hover {
   border-bottom: 2px solid #a70000;
@@ -192,30 +227,11 @@ header #headermenu {
 footer {
   display: block;
   position: relative;
-  background: #f0f0f0;
-  padding: 4rem 0;
+  background: white;
+  padding: 4rem 0 0 0;
 }
 footer .logo {
   width: 100%;
-}
-footer .adr ul {
-  padding: 0;
-  margin: 2rem 0 0 0;
-}
-footer .adr ul li {
-  list-style: none;
-  color: #000000;
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 1em;
-}
-footer .adr ul li img {
-  margin-right: 1em;
-  width: 20px;
-  height: 20px;
-}
-footer .adr ul li a {
-  color: #000000;
 }
 footer .column.links {
   padding: 1rem 2rem!important;
@@ -233,6 +249,38 @@ footer .column.links ul li {
 }
 footer .column.links ul li a {
   color: #000000;
+}
+footer #subfooter {
+  padding: 0.5rem 0;
+  background: black;
+  margin-top: 2rem;
+}
+footer #subfooter a {
+  color: white!important;
+}
+footer #subfooter .footernav {
+  display: flex;
+}
+footer #subfooter .footernav > * {
+  padding: 0 0.5rem;
+  border-right: 1px solid white;
+}
+footer #subfooter .footernav > *:last-child {
+  border: none;
+}
+footer #subfooter .ui.container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  footer #subfooter .ui.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer #subfooter .ui.container .ebdf {
+    margin-top: 1rem;
+  }
 }
 .btnlnk {
   padding: 1rem 2rem;
@@ -254,6 +302,15 @@ footer .column.links ul li a {
   font-size: 1.4rem;
   width: 50%;
   margin-bottom: 4rem;
+}
+@media (max-width: 720px) {
+  #home #tobenw {
+    padding: 1rem 0 2rem 0;
+  }
+  #home #tobenw .content {
+    font-size: 1.2rem;
+    width: 100%;
+  }
 }
 #home #untw {
   display: flex;
@@ -278,6 +335,11 @@ footer .column.links ul li a {
 #home #untw h1 strong {
   color: #a70000;
 }
+@media (max-width: 720px) {
+  #home #untw h1 {
+    font-size: 2.5rem;
+  }
+}
 #home #jobsw {
   display: flex;
   flex-direction: column;
@@ -286,6 +348,11 @@ footer .column.links ul li a {
   text-align: left;
   padding: 6rem 0 0 0;
   color: #000000;
+}
+@media (max-width: 720px) {
+  #home #jobsw {
+    padding: 0 0 0;
+  }
 }
 #home #jobsw .cl ul {
   margin: 0;
@@ -300,8 +367,23 @@ footer .column.links ul li a {
 #home #jobsw .cl ul li a:hover {
   color: #a70000;
 }
+@media (max-width: 720px) {
+  #home #jobsw .cl ul li {
+    padding: 0;
+  }
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl ul {
+    padding: 0 0 0 1em;
+  }
+}
 #home #jobsw .cl .icnlist {
   display: flex;
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl .icnlist {
+    flex-wrap: wrap;
+  }
 }
 #home #jobsw .cl .icnlist .icn {
   padding: 1rem;
@@ -312,10 +394,24 @@ footer .column.links ul li a {
 #home #jobsw .cl .icnlist .icn img {
   max-width: 100%;
 }
+@media (max-width: 720px) {
+  #home #jobsw .cl .icnlist .icn {
+    max-width: 48%;
+  }
+  #home #jobsw .cl .icnlist .icn img {
+    max-width: 50%;
+  }
+}
 #home #jobsw .tw {
   padding: 0 0 2rem 6rem;
   background: url(pfr.png) left bottom no-repeat;
   background-size: contain;
+}
+@media (max-width: 720px) {
+  #home #jobsw .tw {
+    background: none;
+    padding: 0 0 2rem 0;
+  }
 }
 #home #jobsw h2 {
   font-weight: normal;
@@ -332,9 +428,19 @@ footer .column.links ul li a {
 #home #jobsw h3 strong {
   color: #a70000;
 }
+@media (max-width: 720px) {
+  #home #jobsw h3 {
+    font-size: 2.5rem;
+  }
+}
 #home #jobsw .ui.container {
   display: flex!important;
   justify-content: space-between;
+}
+@media (max-width: 720px) {
+  #home #jobsw .ui.container {
+    flex-direction: column-reverse;
+  }
 }
 #home #jobsw .btnlnk {
   padding: 0.5rem 1rem;
@@ -348,6 +454,11 @@ footer .column.links ul li a {
   text-align: left;
   padding: 0 0 22vw 0;
   color: white;
+}
+@media (max-width: 720px) {
+  #home #fpw {
+    padding: 0 0 42vw 0;
+  }
 }
 #home #fpw .tw {
   padding-right: 6rem;
@@ -369,14 +480,30 @@ footer .column.links ul li a {
 #home #fpw h3 strong {
   color: #a70000;
 }
+@media (max-width: 720px) {
+  #home #fpw h3 {
+    font-size: 2.5rem;
+  }
+}
 #home #fpw .ui.container {
   display: flex!important;
   justify-content: flex-start;
+}
+@media (max-width: 720px) {
+  #home #fpw .ui.container {
+    flex-direction: column;
+  }
 }
 #home #fpw .ui.container ul {
   margin: 0;
   padding: 4rem 0 0 2rem;
   columns: 3;
+}
+@media (max-width: 720px) {
+  #home #fpw .ui.container ul {
+    columns: 2;
+    padding: 0;
+  }
 }
 #home #fpw .ui.container ul li {
   padding: 0.5rem 0 0.5rem 2rem;
@@ -404,6 +531,13 @@ footer .column.links ul li a {
   position: absolute;
   bottom: -5.5rem;
 }
+@media (max-width: 720px) {
+  #home #lew .btnlnk {
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+  }
+}
 #home #lew img {
   max-width: 100%;
 }
@@ -422,6 +556,11 @@ footer .column.links ul li a {
 #home #lew h3 strong {
   color: #a70000;
 }
+@media (max-width: 720px) {
+  #home #lew h3 {
+    font-size: 2.5rem;
+  }
+}
 #home #lew .icnlist {
   display: flex;
   justify-content: center;
@@ -434,6 +573,11 @@ footer .column.links ul li a {
 }
 #home #lew .icnlist .icn h4 {
   margin: 0;
+}
+@media (max-width: 720px) {
+  #home #lew .icnlist .icn {
+    width: 48%;
+  }
 }
 #home #lew .ui.container {
   position: relative;
