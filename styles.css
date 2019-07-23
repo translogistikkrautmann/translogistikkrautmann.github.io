@@ -585,46 +585,61 @@ footer #subfooter .ui.container {
 .nopadding {
   padding: 0!important;
 }
-.subHeader {
-  position: relative;
-  min-height: 15vh;
-  margin: 4rem 0 2rem 0;
+.subheader .hsubimg {
+  width: 100vw;
+  height: 40vh;
+}
+.subheader .content {
+  text-align: center;
+}
+.subheader .titlesec {
+  width: 70%;
+  background: white;
+  margin-top: -4rem;
   padding: 2rem;
 }
-@media (max-width: 720px) {
-  .subHeader {
-    margin: 2rem 0 1rem 0;
-    padding: 1rem;
-  }
+.subheader .titlesecw {
+  display: flex!important;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
-.subHeader .contentWithSubtitle {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.subheader h1 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 0 0 0;
+  font-size: 4rem;
+  color: #000000;
+  text-align: center;
 }
-.subHeader .contentWithSubtitle h2 {
-  color: #f0f0f0;
-  letter-spacing: 0.1em;
-  font-size: 2.5rem;
-  text-align: right;
-  padding-left: 3rem;
-}
-@media (max-width: 720px) {
-  .subHeader .contentWithSubtitle {
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-  .subHeader .contentWithSubtitle h2 {
-    font-size: 2rem;
-    line-height: 1.3em;
-    margin-top: -2.5rem;
-  }
-  .subHeader .contentWithSubtitle h2 p {
-    line-height: 1.2em;
-  }
-}
-.subHeader h1 {
-  margin: 0 0 2rem 0;
+.subheader h1 strong {
   color: #a70000;
+}
+@media (max-width: 720px) {
+  .subheader h1 {
+    font-size: 2.5rem;
+  }
+}
+.subheader h2 {
+  color: #000000;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 0;
+  text-align: center;
+}
+.subpage.logistik .ber {
+  padding: 4rem 0;
+}
+.subpage.logistik .ber .column img {
+  max-width: 100%;
+}
+.subpage.logistik .ber .column h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #a70000;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.1em;
+}
+.subpage.logistik .ber .column h3 p {
+  line-height: 1.1em;
 }
