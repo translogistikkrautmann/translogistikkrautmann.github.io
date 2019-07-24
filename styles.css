@@ -598,6 +598,13 @@ footer #subfooter .ui.container {
   margin-top: -4rem;
   padding: 2rem;
 }
+@media (max-width: 720px) {
+  .subheader .titlesec {
+    width: 90%;
+    margin-top: -4rem;
+    padding: 1rem;
+  }
+}
 .subheader .titlesecw {
   display: flex!important;
   justify-content: flex-start;
@@ -642,4 +649,62 @@ footer #subfooter .ui.container {
 }
 .subpage.logistik .ber .column h3 p {
   line-height: 1.1em;
+}
+.subpage.logistik .srv {
+  display: flex!important;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 720px) {
+  .subpage.logistik .srv {
+    width: 100%!important;
+  }
+}
+.subpage.logistik .srv .contentw {
+  padding: 4rem 0 0rem 6rem;
+  margin-bottom: 4rem;
+  background: url(pfw.png) left top no-repeat;
+  background-size: contain;
+}
+.subpage.logistik .srv .contentw h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif;
+}
+.subpage.logistik .srv .contentw .cols {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.subpage.logistik .srv .contentw .cols > * {
+  width: 150px;
+  margin: 0 2rem 0 0;
+}
+.subpage.logistik .srv .contentw .cols > * img {
+  width: 100%;
+}
+.subpage.logistik .srv .contentw .cols h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: normal;
+}
+@media (max-width: 720px) {
+  .subpage.logistik .srv .contentw {
+    background: none;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .subpage.logistik .srv .contentw .cols {
+    width: 100%;
+    justify-content: center;
+  }
+  .subpage.logistik .srv .contentw .cols > * {
+    width: 120px;
+    margin: 0 2rem 1rem 0;
+  }
+  .subpage.logistik .srv .contentw .cols > * img {
+    width: 100%;
+  }
 }
