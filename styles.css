@@ -633,6 +633,26 @@ footer #subfooter .ui.container {
   margin: 0;
   text-align: center;
 }
+.subpage.fuhrpark .fzglist {
+  padding: 4rem 0;
+}
+.subpage.fuhrpark .fzg .colimg {
+  padding-top: 100%;
+}
+.subpage.fuhrpark .fzg h3 {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.subpage.fuhrpark .teaser {
+  padding: 4rem 0;
+  color: white;
+  font-size: 1.8rem;
+}
+.subpage.fuhrpark .teaser h2 {
+  font-size: 3.5rem;
+}
 .subpage.logistik .ber {
   padding: 4rem 0;
 }
