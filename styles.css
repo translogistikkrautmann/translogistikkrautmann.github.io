@@ -633,6 +633,32 @@ footer #subfooter .ui.container {
   margin: 0;
   text-align: center;
 }
+.subpage.unternehmen .werte {
+  margin-top: 4rem!important;
+  padding-bottom: 4rem;
+}
+.subpage.unternehmen .werte h2 {
+  font-size: 1.4rem;
+  color: #a70000;
+}
+.subpage.unternehmen .hist {
+  color: white;
+  background: url(pfw.png) right top no-repeat;
+  padding: 4rem 6rem 4rem 0;
+  text-align: right;
+}
+.subpage.unternehmen .hist h3 {
+  font-size: 3rem;
+}
+.subpage.unternehmen .hist h4 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.subpage.unternehmen .hist .jahre h4 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: normal;
+}
 .subpage.fuhrpark .fzglist {
   padding: 4rem 0;
 }
@@ -652,6 +678,16 @@ footer #subfooter .ui.container {
 }
 .subpage.fuhrpark .teaser h2 {
   font-size: 3.5rem;
+}
+@media (max-width: 720px) {
+  .subpage.fuhrpark .teaser {
+    background-position-x: center!important;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+  }
+  .subpage.fuhrpark .teaser h2 {
+    font-size: 2.5rem;
+  }
 }
 .subpage.logistik .ber {
   padding: 4rem 0;
