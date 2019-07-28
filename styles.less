@@ -601,6 +601,113 @@ footer{
 }
 
 .subpage{
+  .grey{
+    background: @grey_light;
+  }
+  .aplist{
+    margin:12rem 0 4rem 0;
+    padding:4rem 0;
+    @media (max-width: 720px){
+      margin:2rem 0;
+    }
+  }
+  
+  &.ap{
+    .ap1{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .ape{
+      .pos{
+        font-weight:bold;
+        font-size:1.2rem;
+      }
+      .name{
+        font-weight:bold;
+        color:@red;
+        font-size:1.2rem;
+        margin-bottom:1rem;
+      }
+      .tel{
+        background:url(/icon_phone.png) left center no-repeat;
+        padding:0 0 0 1.5rem;
+        background-size: 1rem auto;
+      }
+      .fax{
+        background:url(/icon_fax.png) left center no-repeat;
+        padding:0 0 0 1.5rem;
+        background-size: 1rem auto;
+      }
+      .email{
+        background:url(/icon_mail.png) left center no-repeat;
+        padding:0 0 0 1.5rem;
+        background-size: 1rem auto;
+      }
+    }
+    @media (max-width: 720px){
+      .column.center{
+        margin:0;
+      }
+    }
+    .column.center{
+      margin:-8rem auto;
+    }
+    .left,.right{
+      div{
+        text-align: justify;
+      }
+      padding:2rem 4rem;
+      h3{
+        @media (max-width: 720px){
+          text-align:center!important;
+        }
+      }
+    }
+    .column.left{
+      .ape{
+        @media (max-width: 720px){
+          align-items:flex-start!important;
+          > *{
+            text-align:left!important;
+          }
+          margin: 0 0 1rem 0;
+        }
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-end!important;
+        > *{
+          display:inline-block;
+          text-align:right;
+        }
+        margin: 0 2rem 2rem 0;
+        &:last-child{
+          margin-bottom:0;
+        }
+      }
+    }
+    .column.right{
+      .ape{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start!important;
+        @media (max-width: 720px){
+          margin: 0 0 1rem 0;
+        }
+        > *{
+          display:inline-block;
+          text-align:left;
+        }
+        margin: 0 0 2rem 2rem;
+        &:last-child{
+          margin-bottom:0;
+        }
+      }
+    }
+  }
   &.unternehmen{
     .werte{
       margin-top:4rem!important;

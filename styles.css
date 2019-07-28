@@ -633,6 +633,113 @@ footer #subfooter .ui.container {
   margin: 0;
   text-align: center;
 }
+.subpage .grey {
+  background: #f0f0f0;
+}
+.subpage .aplist {
+  margin: 12rem 0 4rem 0;
+  padding: 4rem 0;
+}
+@media (max-width: 720px) {
+  .subpage .aplist {
+    margin: 2rem 0;
+  }
+}
+.subpage.ap .ap1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage.ap .ape .pos {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.subpage.ap .ape .name {
+  font-weight: bold;
+  color: #a70000;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.subpage.ap .ape .tel {
+  background: url(/icon_phone.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+.subpage.ap .ape .fax {
+  background: url(/icon_fax.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+.subpage.ap .ape .email {
+  background: url(/icon_mail.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.center {
+    margin: 0;
+  }
+}
+.subpage.ap .column.center {
+  margin: -8rem auto;
+}
+.subpage.ap .left,
+.subpage.ap .right {
+  padding: 2rem 4rem;
+}
+.subpage.ap .left div,
+.subpage.ap .right div {
+  text-align: justify;
+}
+@media (max-width: 720px) {
+  .subpage.ap .left h3,
+  .subpage.ap .right h3 {
+    text-align: center!important;
+  }
+}
+.subpage.ap .column.left .ape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end !important;
+  margin: 0 2rem 2rem 0;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.left .ape {
+    align-items: flex-start !important;
+    margin: 0 0 1rem 0;
+  }
+  .subpage.ap .column.left .ape > * {
+    text-align: left!important;
+  }
+}
+.subpage.ap .column.left .ape > * {
+  display: inline-block;
+  text-align: right;
+}
+.subpage.ap .column.left .ape:last-child {
+  margin-bottom: 0;
+}
+.subpage.ap .column.right .ape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start !important;
+  margin: 0 0 2rem 2rem;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.right .ape {
+    margin: 0 0 1rem 0;
+  }
+}
+.subpage.ap .column.right .ape > * {
+  display: inline-block;
+  text-align: left;
+}
+.subpage.ap .column.right .ape:last-child {
+  margin-bottom: 0;
+}
 .subpage.unternehmen .werte {
   margin-top: 4rem!important;
   padding-bottom: 4rem;
