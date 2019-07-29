@@ -752,6 +752,30 @@ footer #subfooter .ui.container {
 .subpage.ap .column.right .ape:last-child {
   margin-bottom: 0;
 }
+.subpage.jobs li {
+  margin-bottom: 2rem;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.subpage.jobs li h4 {
+  font-size: 1.6rem!important;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+.subpage.jobs li h3 {
+  font-size: 1.8rem!important;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #a70000;
+}
+.subpage.jobs li .mbutton {
+  background: #a70000;
+  padding: 0.5rem 1rem;
+  color: white;
+}
 .subpage.kontakt .content strong {
   color: #a70000;
 }
