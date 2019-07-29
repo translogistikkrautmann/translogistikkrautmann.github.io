@@ -720,6 +720,35 @@ footer{
       }
     }
   }
+  &.kontakt{
+    .content{
+      strong{
+        color:@red;
+      }
+    }
+    .map{
+      min-height:80vh;
+      margin-top:12rem;
+    }
+    .mapcontentw{
+      display:flex!important;
+      justify-content: flex-end;
+      align-items: flex-start;
+      .mapcontent{
+        color:white;
+        background-color:@red!important;
+        padding:4rem 8rem;
+        margin-top:-8rem;
+        font-size:1.3rem;
+        background:url(pfw.png)right 2rem top no-repeat;
+        background-size: auto 50% ;
+        @media (max-width: 720px){
+          padding:2rem;
+          background:none;
+        }
+      }
+    }
+  }
   &.unternehmen{
     .werte{
       margin-top:4rem!important;
@@ -824,10 +853,11 @@ footer{
           justify-content: flex-start;
           flex-wrap: wrap;
           > *{
-            width:150px;
+            width:250px;
             margin: 0 2rem 0 0;
+            text-align:center;
             img{
-              width:100%;
+              width:80%!important;
             }
           }
           h3{

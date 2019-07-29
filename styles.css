@@ -752,6 +752,33 @@ footer #subfooter .ui.container {
 .subpage.ap .column.right .ape:last-child {
   margin-bottom: 0;
 }
+.subpage.kontakt .content strong {
+  color: #a70000;
+}
+.subpage.kontakt .map {
+  min-height: 80vh;
+  margin-top: 12rem;
+}
+.subpage.kontakt .mapcontentw {
+  display: flex!important;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.subpage.kontakt .mapcontentw .mapcontent {
+  color: white;
+  background-color: #a70000 !important;
+  padding: 4rem 8rem;
+  margin-top: -8rem;
+  font-size: 1.3rem;
+  background: url(pfw.png) right 2rem top no-repeat;
+  background-size: auto 50% ;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt .mapcontentw .mapcontent {
+    padding: 2rem;
+    background: none;
+  }
+}
 .subpage.unternehmen .werte {
   margin-top: 4rem!important;
   padding-bottom: 4rem;
@@ -852,11 +879,12 @@ footer #subfooter .ui.container {
   flex-wrap: wrap;
 }
 .subpage.logistik .srv .contentw .cols > * {
-  width: 150px;
+  width: 250px;
   margin: 0 2rem 0 0;
+  text-align: center;
 }
 .subpage.logistik .srv .contentw .cols > * img {
-  width: 100%;
+  width: 80%!important;
 }
 .subpage.logistik .srv .contentw .cols h3 {
   text-align: center;
