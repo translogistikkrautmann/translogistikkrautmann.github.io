@@ -814,6 +814,30 @@ footer #subfooter .ui.container {
     background: none;
   }
 }
+.subpage.jobsingle h1 {
+  color: #a70000;
+  font-size: 2.5rem!important;
+}
+.subpage.jobsingle .container.content {
+  padding: 1rem 0;
+}
+.subpage.jobsingle .container.content h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #a70000;
+}
+.subpage.jobsingle .details {
+  padding: 0 0 2rem 0;
+}
+.subpage.jobsingle .details ul {
+  padding: 0;
+}
+.subpage.jobsingle .details > * h4 {
+  margin-top: 2rem;
+  color: #a70000;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
 .subpage.unternehmen .werte {
   margin-top: 4rem!important;
   padding-bottom: 4rem;
