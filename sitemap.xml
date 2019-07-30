@@ -24,6 +24,10 @@
   </url>
   
   <url>
+    <loc>https://translogistikkrautmann.github.io/jobs/kraftfahrer-im-verteilerverkehr-im-lebensmittelbereich/</loc>
+  </url>
+  
+  <url>
     <loc>https://translogistikkrautmann.github.io/ansprechpartner/</loc>
   </url>
   
@@ -54,6 +58,11 @@
   
   <url>
     <loc>https://translogistikkrautmann.github.io/jobb%C3%B6rse/</loc>
+  </url>
+  
+  <url>
+    <loc>https://translogistikkrautmann.github.io/jobs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
