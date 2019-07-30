@@ -752,11 +752,22 @@ footer #subfooter .ui.container {
 .subpage.ap .column.right .ape:last-child {
   margin-bottom: 0;
 }
+@media (max-width: 720px) {
+  .subpage.jobs ul {
+    padding: 0;
+  }
+}
 .subpage.jobs li {
   margin-bottom: 2rem;
   display: flex !important;
   justify-content: space-between;
   align-items: flex-start;
+}
+@media (max-width: 720px) {
+  .subpage.jobs li {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 .subpage.jobs li h4 {
   font-size: 1.6rem!important;
