@@ -159,27 +159,59 @@ header #headermenu {
   }
 }
 .headermenuitem:hover {
-  border-bottom: 2px solid #a70000;
   color: #a70000;
 }
 .headermenuitem:hover a {
   color: #a70000 !important;
 }
+.headermenuitem:hover a span {
+  padding: 0;
+  margin: 0 1em;
+  border-bottom: 2px solid #a70000;
+}
 .headermenuitem:hover .sub-menu {
   height: auto;
   padding: 1rem;
+}
+.headermenuitem.active {
+  color: #a70000;
+}
+.headermenuitem.active a {
+  color: #a70000 !important;
+}
+.headermenuitem.active a span {
+  border-bottom: 2px solid #a70000;
+  margin: 0 1em;
+  padding: 0;
+}
+@media (max-width: 720px) {
+  .headermenuitem.active .sub-menu {
+    height: auto;
+    padding: 1rem;
+  }
+}
+@media (max-width: 720px) and (max-width: 720px) {
+  .headermenuitem.active .sub-menu {
+    flex-direction: row;
+    top: 2.1rem!important;
+    margin-left: -1rem;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 1rem 1em 1rem!important;
+    background: #ffffff;
+  }
 }
 .headermenuitem a {
   color: #000000 !important;
   text-decoration: none!important;
 }
 .headermenuitem a span {
-  padding: 0 1rem;
+  margin: 0 1em;
 }
 @media (max-width: 720px) {
   .headermenuitem a span {
     border: none;
-    padding: 0 1em;
+    padding: 0;
   }
 }
 .headermenuitem .sub-menu {
@@ -195,16 +227,16 @@ header #headermenu {
   top: 2.5rem!important;
   padding: 1rem 0 0 0!important;
 }
-@media (max-width: 720px) {
-  .headermenuitem .sub-menu {
-    display: none;
-  }
-}
 .headermenuitem .sub-menu .sub-menu-item {
   text-align: left;
   background: rgba(255, 255, 255, 0.9);
   width: 100%;
   padding: 0 1rem;
+}
+@media (max-width: 720px) {
+  .headermenuitem .sub-menu .sub-menu-item {
+    background: transparent;
+  }
 }
 .headermenuitem .sub-menu .sub-menu-item > a {
   color: #000000 !important;
@@ -213,6 +245,14 @@ header #headermenu {
 }
 .headermenuitem .sub-menu .sub-menu-item > a:hover {
   color: #a70000 !important;
+}
+@media (max-width: 720px) {
+  .headermenuitem .sub-menu .sub-menu-item > a {
+    font-size: 1rem;
+  }
+  .headermenuitem .sub-menu .sub-menu-item > a.active {
+    color: #a70000 !important;
+  }
 }
 .imggal .column {
   padding: 0.25rem!important;
