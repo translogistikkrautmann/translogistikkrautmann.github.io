@@ -193,7 +193,7 @@ header #headermenu {
 @media (max-width: 720px) and (max-width: 720px) {
   .headermenuitem.active .sub-menu {
     flex-direction: row;
-    top: 2.1rem!important;
+    top: 2.1rem !important;
     margin-left: -1rem;
     width: 100vw;
     justify-content: space-between;
@@ -224,7 +224,7 @@ header #headermenu {
   position: absolute;
   left: 0;
   z-index: 99;
-  top: 2.5rem!important;
+  top: 2.5rem !important;
   padding: 1rem 0 0 0!important;
 }
 .headermenuitem .sub-menu .sub-menu-item {
@@ -255,17 +255,17 @@ header #headermenu {
   }
 }
 .imggal .column {
-  padding: 0.25rem!important;
+  padding: 0.25rem !important;
 }
 .imggal .gimg {
   cursor: pointer;
   padding-top: 100%;
 }
 .imggal .gimg.h {
-  padding-top: calc(210%);
+  padding-top: calc(200% + 10rem);
 }
 .imggal .gimg.hs {
-  padding-top: calc(101%);
+  padding-top: calc(100% + 1rem);
 }
 .imggal .gimg.w {
   padding-top: calc(50%);
@@ -689,7 +689,7 @@ footer #subfooter .ui.container {
   background: #f0f0f0;
 }
 .subpage .aplist {
-  margin: 12rem 0 4rem 0;
+  margin: 2rem 0 4rem 0;
   padding: 4rem 0;
 }
 @media (max-width: 720px) {
@@ -810,13 +810,13 @@ footer #subfooter .ui.container {
   }
 }
 .subpage.jobs li h4 {
-  font-size: 1.6rem!important;
+  font-size: 1.6rem !important;
   margin: 0;
   font-weight: normal;
   line-height: 1.2em;
 }
 .subpage.jobs li h3 {
-  font-size: 1.8rem!important;
+  font-size: 1.8rem !important;
   margin: 0;
   font-weight: normal;
   line-height: 1.2em;
@@ -856,7 +856,7 @@ footer #subfooter .ui.container {
 }
 .subpage.jobsingle h1 {
   color: #a70000;
-  font-size: 2.5rem!important;
+  font-size: 2.5rem !important;
 }
 .subpage.jobsingle .container.content {
   padding: 1rem 0;
