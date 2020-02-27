@@ -24,6 +24,10 @@
   </url>
   
   <url>
+    <loc>https://tl-krautmann.de/jobs/kraftfahrer-im-verteilerverkehr-im-lebensmittelbereich/</loc>
+  </url>
+  
+  <url>
     <loc>https://tl-krautmann.de/ansprechpartner/</loc>
   </url>
   
@@ -54,6 +58,11 @@
   
   <url>
     <loc>https://tl-krautmann.de/jobb%C3%B6rse/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tl-krautmann.de/jobs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
