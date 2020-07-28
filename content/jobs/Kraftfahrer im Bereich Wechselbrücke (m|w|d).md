@@ -3,7 +3,7 @@ anforderungen = "<h2>Was wir erwarten können</h2><ul><li><p>Führerschein der K
 anmerkung_arbeitsplatzort = ""
 arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
-beschreibung = "<p>Zur Verstärkung bei unserem langjährigen Auftraggeber suchen wir ab sofort einen Fahrer (m|w|d) im Wechselbrückenbereich.</p><p>Du hast bereits Erfahrung im Bereich Wechselbrücke einfahren können? Legst Wert auf eine familienfreundliche Schicht? Bist zuverlässig und suchst eine langfristige Beschäftigung innerhalb eines krisensicheren Unternehmens?</p><p>Worauf wartest du noch?</p><p class=\"MsoNormal\">Herzlich Willkommen bei der Translogistik Krautmann GmbH.</p>"
+beschreibung = "<p>Zur Verstärkung bei unserem langjährigen Auftraggeber suchen wir ab sofort einen Fahrer (m|w|d) im Wechselbrückenbereich.</p><p>Du hast bereits Erfahrung im Bereich Wechselbrücke einfahren können? Legst Wert auf eine familienfreundliche Schicht? Bist zuverlässig und suchst eine langfristige Beschäftigung innerhalb eines krisensicheren Unternehmens?</p><p>Worauf wartest du noch?</p><p>Herzlich Willkommen bei der Translogistik Krautmann GmbH.</p>"
 bewerbungsfrist = ""
 grundgehalt = 0
 grundgehalt_pro = ""
