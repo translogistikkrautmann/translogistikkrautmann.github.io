@@ -1,0 +1,4 @@
+baseURL = "https://tl-krautmann.de"
+languageCode = "de-de"
+theme = "krautmann"
+title = "Krautmann Translogistik"

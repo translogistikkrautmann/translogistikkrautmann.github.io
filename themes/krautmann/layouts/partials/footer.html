@@ -1,0 +1,31 @@
+{{ $header := .Site.GetPage "header.md" }}
+{{ $footer := .Site.GetPage "footer.md" }}
+{{$p:=.}}
+<footer>
+  <div class=" ui container">
+    <div class="ui five column doubling stackable grid">
+      <div class="column adr">
+        <a href="/">
+          <img class="logo" src="{{partial "imgUrl" (dict "img" $header.Params.logo "params" "q_100" )}}" /> 
+        </a>
+      </div>
+      {{range $footer.Params.spalten}}
+        <div class="column links">
+          {{.content|safeHTML}}
+        </div>
+      {{end}}
+    </div>
+  </div>
+  <div id="subfooter">
+    <div class="ui container">
+      <div class="footernav">
+          {{ range .Site.Menus.footer }}
+              <a href="{{ .URL }}" title="{{ .Title }}">
+                  <span>{{ .Name | safeHTML }}</span>
+              </a>
+              {{end}}
+      </div>
+      <div class="ebdf"><a href="http://elvirabeck-design.de" target="_blank">elvira.beck | design</a></div>
+    </div>
+  </div>
+</footer>

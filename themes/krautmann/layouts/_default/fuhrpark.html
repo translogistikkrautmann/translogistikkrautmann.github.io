@@ -1,0 +1,23 @@
+{{ define "main" }} {{ $p := . }}
+
+<div class="subpage fuhrpark">
+  {{partial "headerSub" .}}
+  <div class="ui container fzglist">
+    <div class="ui three column doubling grid">
+      {{range .Params.fahrzeuge}}
+      <div class="column fzg">
+        <div class="colimg" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100")}}) center center no-repeat; background-size:cover;"></div>
+        <h3>{{.beschriftung}}</h3>
+      </div>
+      {{end}}
+    </div>
+  </div>
+  {{with .Params.teaser}}
+  <div class="teaser" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100")}}) left center no-repeat; background-size:cover;">
+    <div class="ui container">
+      {{.content|safeHTML}}
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

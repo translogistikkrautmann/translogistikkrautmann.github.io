@@ -1,0 +1,14 @@
+---
+label: Bildergalerie
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: subheader
+  label: Header
+- name: seo
+  type: include
+  config: {}
+  template: bildergalerie
+  label: seo

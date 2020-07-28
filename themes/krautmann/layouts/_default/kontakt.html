@@ -1,0 +1,12 @@
+{{ define "main" }} {{ $p := . }}
+<div class="subpage kontakt">
+  {{partial "headerSub" .}}
+  <div class="map" style="background:url({{partial "imgUrl" (dict "img" .Params.karte "params" "q_100")}}) center center no-repeat; background-size:cover;">
+    <div class="ui container mapcontentw">
+      <div class="mapcontent">
+        {{.Params.kontaktblock|safeHTML}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

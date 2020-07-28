@@ -1,0 +1,56 @@
+{{ define "main" }} {{ $p := . }}
+
+<div class="subpage ap">
+  {{partial "headerSub" .}}
+  <div class="ui container">
+    {{ range $x,$a := .Params.ansprechpartner }} {{if eq $x 0}}
+    {{with $a}}
+    <div class="ap1 ape">
+      <div class="pos">{{.position}}</div>
+      <div class="name">{{.name}}</div>
+      <div class="tel">{{.tel}}</div>
+      <div class="fax">{{.fax}}</div>
+      <div class="email"><a href="mailto:{{.email}}">{{.email}}</a></div>
+    </div>
+    {{end}}
+    {{end}}{{end}}
+  </div>
+  <div class="grey aplist">
+    <div class="ui container">
+        <div class="ui two column stackable grid">
+            <div class="column left">
+              {{ range $x,$a := .Params.ansprechpartner }} 
+                {{if gt $x 0}}
+                {{if lt $x 3}}
+                {{with $a}}
+                <div class="apl ape">
+                  <div class="pos">{{.position}}</div>
+                  <div class="name">{{.name}}</div>
+                  <div class="tel">{{.tel}}</div>
+                  <div class="fax">{{.fax}}</div>
+                  <div class="email"><a href="mailto:{{.email}}">{{.email}}</a></div>
+                </div>
+                {{end}}
+                {{end}}
+                {{end}}
+              {{end}}
+            </div>
+            <div class="column right">
+              {{ range $x,$a := .Params.ansprechpartner }} 
+                {{if gt $x 2}}
+                {{with $a}}
+                <div class="apl ape">
+                  <div class="pos">{{.position}}</div>
+                  <div class="name">{{.name}}</div>
+                  <div class="tel">{{.tel}}</div>
+                  <div class="fax">{{.fax}}</div>
+                  <div class="email"><a href="mailto:{{.email}}">{{.email}}</a></div>
+                </div>
+                {{end}}
+                {{end}}
+              {{end}}
+            </div>
+          </div>
+    </div>
+  </div>
+{{ end }}

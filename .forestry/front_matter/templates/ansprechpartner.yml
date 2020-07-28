@@ -1,0 +1,49 @@
+---
+label: Ansprechpartner
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: subheader
+  label: Header
+- name: bild
+  type: file
+  config:
+    maxSize: 250
+  label: Bild
+- name: ansprechpartner
+  type: field_group_list
+  fields:
+  - name: position
+    type: text
+    config:
+      required: false
+    label: Position
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: tel
+    type: text
+    config:
+      required: false
+    label: Tel
+  - name: fax
+    type: text
+    config:
+      required: false
+    label: Fax
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ansprechpartner
+pages:
+- content/ansprechpartner.md

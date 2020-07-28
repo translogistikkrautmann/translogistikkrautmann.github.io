@@ -1,0 +1,52 @@
+---
+label: Jobs
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: subheader
+  label: Header
+- name: job_liste
+  type: field_group_list
+  fields:
+  - name: interne_bezeichnung
+    type: text
+    config:
+      required: false
+    label: Interne Bezeichnung
+    description: "!!! Wird nicht auf Webseite angezeigt !!!"
+  - name: bezeichnung_1
+    type: text
+    config:
+      required: false
+    label: Bezeichnung 1
+  - name: bezeichnung_2
+    type: text
+    config:
+      required: false
+    label: Bezeichnung 2
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: jobs
+        file: 
+        path: 
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Job Liste
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/jobbörse.md

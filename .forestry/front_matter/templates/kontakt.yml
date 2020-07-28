@@ -1,0 +1,25 @@
+---
+label: Kontakt
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: subheader
+  label: Header
+- name: kontaktblock
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Kontaktblock
+- name: karte
+  type: file
+  config:
+    maxSize: 250
+  label: Karte
+pages:
+- content/kontakt.md

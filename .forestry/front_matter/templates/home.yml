@@ -1,0 +1,333 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: teaser_oben
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: linkbeschriftung
+    type: text
+    config:
+      required: false
+    label: Linkbeschriftung
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: Link
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Teaser oben
+- name: unternehmen
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Untertitel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  label: Unternehmen
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Untertitel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: bereiche
+    type: field_group_list
+    fields:
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Bereiche
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  - name: button_mehr
+    type: field_group
+    config: {}
+    fields:
+    - name: beschriftung
+      type: text
+      config:
+        required: false
+      label: Beschriftung
+    - name: link
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: seiten
+          file: 
+          path: 
+      label: Link
+    label: Button mehr
+  label: Leistungen
+- name: jobs
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Untertitel
+  - name: hintergrund
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrund
+  - name: content_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content rechts
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: beschriftung
+      type: text
+      config:
+        required: false
+      label: Beschriftung
+    - name: link
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: seiten
+          file: 
+          path: 
+      label: Link
+    label: Button
+  - name: content_links
+    type: field_group
+    config: {}
+    fields:
+    - name: jobs
+      type: field_group_list
+      fields:
+      - name: titel
+        type: text
+        config:
+          required: false
+        label: Titel
+      - name: link
+        type: select
+        default: []
+        config:
+          required: false
+          options: []
+          source:
+            type: pages
+            section: seiten
+            file: 
+            path: 
+        label: Link
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Jobs
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    - name: icon_liste
+      type: field_group_list
+      fields:
+      - name: icon
+        type: file
+        config:
+          maxSize: 250
+        label: Icon
+      - name: content
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html-blocks
+        label: Content
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Icon Liste
+    label: Content links
+  label: Jobs
+- name: fuhrpark
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: untertitel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Untertitel
+  - name: liste
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Liste
+  - name: hintergrundbild
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrundbild
+  label: Fuhrpark
+pages:
+- content/_index.md

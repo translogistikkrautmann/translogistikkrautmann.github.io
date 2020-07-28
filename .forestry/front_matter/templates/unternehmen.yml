@@ -1,0 +1,85 @@
+---
+label: Unternehmen
+hide_body: true
+fields:
+- name: header
+  type: include
+  config: {}
+  template: subheader
+  label: Header
+- name: werte
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Werte
+- name: werte_hintergrund
+  type: file
+  config:
+    maxSize: 250
+  label: Werte Hintergrund
+- name: historie
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: untertitel
+    type: text
+    config:
+      required: false
+    label: Untertitel
+  - name: jahre
+    type: field_group_list
+    fields:
+    - name: titel
+      type: text
+      config:
+        required: false
+      label: Titel
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Jahre
+  - name: hintergrund
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrund
+  label: Historie
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/unternehmen.md

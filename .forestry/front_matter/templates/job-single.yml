@@ -1,0 +1,176 @@
+---
+label: Job Single
+hide_body: true
+fields:
+- name: header_bild
+  type: file
+  config:
+    maxSize: 250
+  label: Header Bild
+- name: untertitel
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Untertitel
+- name: jobtitel
+  type: text
+  config:
+    required: false
+  label: Jobtitel
+- name: beschreibung
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Beschreibung
+- name: anforderungen
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Anforderungen
+- name: arbeitsplatzorte
+  type: field_group_list
+  fields:
+  - name: postleitzahl
+    type: text
+    config:
+      required: false
+    label: Postleitzahl
+  - name: ort
+    type: text
+    config:
+      required: false
+    label: Ort
+  - name: strasse
+    type: text
+    config:
+      required: false
+    label: Strasse
+  - name: land
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - DE
+      - AT
+      - CH
+      - FR
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Land
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Arbeitsplatzorte
+  description: Standorte des Unternehmens, an denen der Arbeitnehmer arbeiten wird.
+    Es sind möglichst alle Daten anzugeben (aber nicht zwingend erforderlich).
+- name: anmerkung_arbeitsplatzort
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Anmerkung Arbeitsplatzort
+- name: bewerbungsfrist
+  type: datetime
+  label: Bewerbungsfrist
+  description: ''
+  config:
+    required: false
+    date_format: DD.MM.YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+- name: grundgehalt
+  type: number
+  label: Grundgehalt
+  description: Optional für Google
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: grundgehalt_pro
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - YEAR
+    - MONTH
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Grundgehalt pro
+  description: Notwendig für Google, aber nur wenn Grundgehalt angegeben ist
+- name: art_der_beschaeftigung
+  type: select
+  default: FULL_TIME
+  config:
+    required: false
+    options:
+    - FULL_TIME
+    - PART_TIME
+    - CONTRACTOR
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Art der Beschaeftigung
+  description: Wichtig für Google
+- name: button
+  type: field_group
+  config: {}
+  fields:
+  - name: beschriftung
+    type: text
+    config:
+      required: false
+    label: Beschriftung
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  label: Button
+- name: hintergrundbild
+  type: file
+  config:
+    maxSize: 250
+  label: Hintergrundbild
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  hidden: true
+  default: jobs_single
+pages:
+- content/jobs/Kraftfahrer im Bereich Wechselbrücke (m|w|d).md

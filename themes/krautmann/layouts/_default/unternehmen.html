@@ -1,0 +1,33 @@
+{{ define "main" }} {{ $p := . }}
+
+<div class="subpage unternehmen">
+  {{partial "headerSub" .}}
+  <div >
+    <div class="ui container werte">
+      <div class="ui stackable two column grid">
+        <div class="column computer only" style="background:url({{partial "imgUrl" (dict "img" .Params.werte_hintergrund "params" "q_100")}}) right 4rem top no-repeat; background-size:contain;">&nbsp;</div>
+        <div class="column">
+          {{range .Params.werte}}
+            <h2>{{.titel}}</h2>
+            <div>{{.content|safeHTML}}</div>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{with .Params.historie}}
+  <div style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100")}}) center center no-repeat; background-size:cover;">
+    <div class="ui container hist">
+      <h4>{{.untertitel}}</h4>
+      <h3>{{.titel}}</h3>
+      <div class="jahre">
+        {{range .jahre}}
+          <h4>{{.titel}}</h4>
+          {{.content|safeHTML}}
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

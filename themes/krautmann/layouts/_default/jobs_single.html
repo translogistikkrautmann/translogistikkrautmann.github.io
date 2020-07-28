@@ -1,0 +1,91 @@
+{{ define "main" }} {{ $p := . }}
+<div class="subpage jobsingle">
+  <div class="subheader">
+    <div class="hsubimg" style="background:url({{partial "imgUrl" (dict "img" .Params.header_bild "params" "q_100")}}) center top no-repeat; background-size:cover;"></div>
+    <div class="ui container titlesecw">
+      <div class="titlesec">
+          <h2>{{.Params.untertitel|safeHTML}}</h2>
+          <h1>{{.Params.jobtitel}}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="ui container content">
+    {{.Params.beschreibung|safeHTML}}
+  </div>
+  <div class="grey">
+    <div class="ui container content">
+      {{.Params.anforderungen|safeHTML}}
+    </div>
+  </div>
+  <div class="ui container details">
+    <div class="ui two column stackable grid">
+      <div class="column">
+          <div>
+              <h4>Firmenname</h4>
+              Translogistik Krautmann GmbH
+            </div>
+            <div>
+              <h4>Arbeitsplatz-Orte</h4>
+              <ul>
+              {{range .Params.arbeitsplatzorte}}
+                <li>
+                  {{.strasse}}<br/>
+                  {{.land}} {{.postleitzahl}} {{.ort}}
+                </li>
+              {{end}}
+              </ul>
+              {{.Params.anmerkung_arbeitsplatzort|safeHTML}}
+            </div>
+      </div>
+      <div class="column">
+          <div>
+              <h4>Art der Beschäftigung</h4>
+              {{if eq .Params.art_der_beschaeftigung "FULL_TIME"}}Vollzeit{{end}}
+              {{if eq .Params.art_der_beschaeftigung "PART_TIME"}}Teilzeit{{end}}
+              {{if eq .Params.art_der_beschaeftigung "CONTRACTOR"}}Freiberuflich{{end}}
+            </div>
+            <div>
+                <h4>Firmen-Webseitenadresse</h4>
+                <a href="https://www.tl-krautmann.de">www.tl-krautmann.de</a>
+              </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "{{.Params.jobtitel}}",
+    "description":
+  {{"\"" | safeJS}}
+    {{.Params.beschreibung | safeJS}} {{.Params.anforderungen | safeJS}}
+    {{"\"" | safeJS}}
+    ,
+    "datePosted": "{{ now.Format "2006-01-01"}}",
+    "employmentType": "{{.Params.art_der_beschaeftigung}}",
+    "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Translogostik Krautmann GmbH",
+        "sameAs": "https://www.tl-krautmann.de",
+        "logo": "https://www.tl-krautmann.de/uploads/2019/07/19/logo_translogistic.png"
+      },
+      "jobLocation":[
+      {{range .Params.arbeitsplatzorte}}
+      {
+        "@type":"Place",
+        "address": { "@type": "PostalAddress",
+        "streetAddress":"{{.strasse}}",
+        "addressLocality":"{{.ort}}",
+        "postalCode":"{{.postleitzahl}}",
+        "addressCountry":"{{.land}}"
+      }
+      }
+      {{end}}
+      ]
+    }
+  }
+  </script>
+</div>
+{{ end }}

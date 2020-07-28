@@ -1,0 +1,18 @@
+{{ define "main" }} {{ $p := . }}
+<div class="subpage jobs">
+  {{partial "headerSub" .}}
+  <div class="ui container">
+    <ul class="jlist">
+      {{range .Params.job_liste}}
+        <li>
+          <div class="jname">
+            <h4>{{.bezeichnung_1}}</h4>
+            <a href="{{relref $p .link }}"><h3>{{.bezeichnung_2}}</h3></a>
+          </div>
+          <a class="mbutton" href="{{relref $p .link }}">weiterlesen</a>
+        </li>
+      {{end}}
+    </ul>
+  </div>
+</div>
+{{ end }}

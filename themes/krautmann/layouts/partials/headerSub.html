@@ -1,0 +1,12 @@
+<div class="subheader">
+  <div class="hsubimg" style="background:url({{partial "imgUrl" (dict "img" .Params.header_bild "params" "q_100")}}) center top no-repeat; background-size:cover;"></div>
+  <div class="ui container titlesecw">
+    <div class="titlesec">
+        <h2>{{.Params.untertitel|safeHTML}}</h2>
+        <h1>{{.Params.titel|safeHTML}}</h1>
+    </div>
+    <div class="content">
+      {{.Params.content|safeHTML}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+---
+label: bg
+hide_body: true
+fields:
+- type: file
+  name: header_bild
+  label: header_bild
+- type: text
+  name: titel
+  label: titel
+- type: text
+  name: untertitel
+  label: untertitel
+- type: image_gallery
+  name: bilder
+  label: bilder
+- type: text
+  name: seo_description
+  label: seo_description
+pages:
+- content/bildergalerie.md

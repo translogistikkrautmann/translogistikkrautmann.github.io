@@ -1,0 +1,33 @@
+{{ define "main" }} {{ $p := . }}
+
+<div class="subpage logistik">
+  {{partial "headerSub" .}}
+  <div class="ui container ber">
+    <div class="ui four column doubling grid">
+      {{range .Params.bereiche}}
+        <div class="column">
+          <img src="{{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}"/>
+          <h3>{{.titel|safeHTML}}</h3>
+        </div>
+      {{end}}
+    </div>
+  </div>
+  {{with .Params.service}}
+  <div class="srv" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100,f_auto" )}}) left bottom no-repeat; background-size:cover;">
+    <div class="ui container srv">
+      <div class="contentw">
+        <h2>{{.titel|safeHTML}}</h2>
+        <div class="cols">
+          {{range .bereiche}}
+            <div>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100" )}}"/>
+          <h3>{{.titel|safeHTML}}</h3>
+            </div>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}

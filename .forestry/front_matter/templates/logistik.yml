@@ -1,0 +1,79 @@
+---
+label: Logistik
+hide_body: true
+fields:
+- name: head
+  type: include
+  config: {}
+  template: subheader
+  label: Head
+- name: bereiche
+  type: field_group_list
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: bild
+    type: file
+    config:
+      maxSize: 250
+    label: Bild
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Bereiche
+- name: service
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Titel
+  - name: bereiche
+    type: field_group_list
+    fields:
+    - name: titel
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Titel
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Bereiche
+  - name: hintergrund
+    type: file
+    config:
+      maxSize: 250
+    label: Hintergrund
+  label: Service
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/logistik.md

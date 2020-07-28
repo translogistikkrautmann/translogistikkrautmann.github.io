@@ -1,0 +1,43 @@
+{{ $t := .Site.GetPage "header.md" }} {{ $currentPage := . }}{{$site := .Site}}
+<header>
+  <div class="ui container headerw">
+    <div class="logow">
+      <a href="/" id="logolink">
+        <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100" )}}" />
+      </a>
+    </div>
+          <div id="headermenu">
+        {{ range .Site.Menus.main }}
+            <div class="headermenuitem {{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}active{{ end }}
+            {{if eq .Title "Produkte"}}{{ range $site.Menus.produkte }}{{ if or ($currentPage.IsMenuCurrent "produkte" .) ($currentPage.HasMenuCurrent "produkte" .) }}active{{ end }}{{end}}{{end}}
+            ">
+                <a href="{{ .URL }}" title="{{ .Title }}" class="{{ if .HasChildren }}hassub{{end}}">
+                    <span>{{ .Name | safeHTML }}</span>
+                </a>
+                {{ if .HasChildren }}
+                <div class="sub-menu">
+                      {{ range .Children }}
+                        <div class="sub-menu-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" title="{{ .Title }}">{{replaceRE "\\[.+\\]" "" .Name}}</a>
+                        </div>
+                    {{ end }}
+                </div>
+                {{end}}
+            </div>
+        {{ end }}
+        </div>
+        <div class="logomobile">
+          <a href="/" id="logolink">
+            <img class="logo" src="{{partial "imgUrl" (dict "img" $t.Params.logo "params" "q_100" )}}" />
+          </a>
+        </div>
+        <div id="headertelw">
+          <div class="elem">
+            <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_tel "params" "f_auto" )}}"/>{{$t.Params.tel|safeHTML}}
+          </div>
+          <div class="elem">
+            <img src="{{partial "imgUrl" (dict "img" $t.Params.icon_email "params" "f_auto" )}}"/>{{$t.Params.email|safeHTML}}
+          </div>
+        </div>
+  </div>
+</header>

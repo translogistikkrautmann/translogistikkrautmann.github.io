@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{$p:=.}}
+<div id="home">
+  {{with .Params.teaser_oben}}
+  <div id="tobenw" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_100" )}}) center bottom no-repeat; background-size:cover;">
+    <div class="ui container">
+      <h2>{{.titel}}</h2>
+      <div class="content">
+        {{.content|safeHTML}}
+      </div>
+      {{with .linkbeschriftung}}
+      <a class="btnlnk" href={{relref $p .link }}>{{.}}</a>
+      {{end}}
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.unternehmen}}
+  <div id="untw" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) center bottom no-repeat; background-size:cover;">
+    <div class="ui container">
+      <h2>{{.untertitel|safeHTML}}</h2>
+      <h1>{{.titel|safeHTML}}</h1>
+      {{.content|safeHTML}}
+      {{partial "imgTagResponsive" (dict "img" .bild "params" "e_trim:0,q_100" )}}
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.leistungen}}
+  <div id="lew" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100" )}}) center bottom no-repeat; background-size:cover;">
+    <div class="ui container">
+      <h2>{{.untertitel|safeHTML}}</h2>
+      <h3>{{.titel|safeHTML}}</h3>
+      {{.content|safeHTML}}
+      <div class="icnlist">
+        {{range .bereiche}}
+          <div class="icn">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "f_auto" )}}"/>
+              <h4>{{.titel}}</h4>
+          </div>
+        {{end}}
+      </div>
+      {{with .button_mehr}}
+      <a class="btnlnk" href={{relref $p .link }}>{{.beschriftung}}</a>
+      {{end}}
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.jobs}}
+  <div id="jobsw" style="background:url({{partial "imgUrl" (dict "img" .hintergrund "params" "q_100" )}}) right bottom no-repeat; background-size:contain;">
+    <div class="ui container">
+      {{with .content_links}}
+      <div class="cl">
+          <ul>
+            {{range .jobs}}
+              <li><a href="{{relref $p .link }}">{{.titel}}</a></li>
+            {{end}}
+          </ul>
+          {{.content|safeHTML}}
+          <div class="icnlist">
+            {{range .icon_liste}}
+            <div class="icn">
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "f_auto" )}}"/>
+              {{.content|safeHTML}}
+            </div>
+            {{end}}
+          </div>
+      </div>
+      {{end}}
+      <div class="tw">
+          <h2>{{.untertitel|safeHTML}}</h2>
+          <h3>{{.titel|safeHTML}}</h3>
+          {{.content_rechts|safeHTML}}
+          {{with .button}}
+          <a class="btnlnk" href={{relref $p .link }}>{{.beschriftung}}</a>
+          {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.fuhrpark}}
+  <div id="fpw" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_100,f_auto" )}}) left bottom no-repeat; background-size:cover;">
+    <div class="ui container">
+      <div class="tw">
+          <h2>{{.untertitel|safeHTML}}</h2>
+          <h3>{{.titel|safeHTML}}</h3>
+      </div>
+      <div>
+          {{.liste|safeHTML}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+</div>
+{{ end }}
