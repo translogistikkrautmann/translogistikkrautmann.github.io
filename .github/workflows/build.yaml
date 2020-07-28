@@ -1,4 +1,5 @@
-name: Build web
+ 
+name: Build web from source
 
 on: [push]
 jobs:
