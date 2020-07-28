@@ -70,9 +70,11 @@
         "name": "Translogostik Krautmann GmbH",
         "sameAs": "https://www.tl-krautmann.de",
         "logo": "https://www.tl-krautmann.de/uploads/2019/07/19/logo_translogistic.png"
-      },
+      }
+      {{with .Params.arbeitsplatzorte}}
+      ,
       "jobLocation":[
-      {{range .Params.arbeitsplatzorte}}
+      {{range .}}
       {
         "@type":"Place",
         "address": { 
@@ -85,6 +87,7 @@
       }
       {{end}}
       ]
+      {{end}}
     }
   }
   </script>
