@@ -75,12 +75,13 @@
       {{range .Params.arbeitsplatzorte}}
       {
         "@type":"Place",
-        "address": { "@type": "PostalAddress",
-        "streetAddress":"{{.strasse}}",
-        "addressLocality":"{{.ort}}",
-        "postalCode":"{{.postleitzahl}}",
-        "addressCountry":"{{.land}}"
-      }
+        "address": { 
+          "@type": "PostalAddress",
+          "streetAddress":"{{.strasse}}",
+          "addressLocality":"{{.ort}}",
+          "postalCode":"{{.postleitzahl}}",
+          "addressCountry":"{{.land}}"
+        }
       }
       {{end}}
       ]
