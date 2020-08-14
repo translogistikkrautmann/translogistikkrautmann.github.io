@@ -83,7 +83,7 @@ titel = ""
 bild = "/uploads/2019/07/19/lkw_bild.png"
 content = "<blockquote><blockquote><h2>Unsere Vision steht seit über <strong>30 Jahren</strong> für Flexibilität und Zuverlässigkeit. Den Blick nach vorne gerichtet setzen wir unsere <strong>Expertise </strong>dafür ein, dass unsere Kunden trotz höchster Anforderungen noch erfolgreicher werden.</h2><h2>#Wir l[i]eben Logistik</h2></blockquote></blockquote>"
 hintergrundbild = "/uploads/2019/07/19/background_weltkarte.png"
-titel = "<p> ***<strong>Moderne Lagerhalle mit 633qm in Bestlage zu vermieten***</strong></p>"
+titel = "<p>***<strong>Moderne Lagerhalle mit 633qm zu vermieten***</strong></p>"
 untertitel = "<h2></h2>"
 
 +++
