@@ -75,10 +75,10 @@ titel = "Kleintransport"
 weight = 1
 [teaser_oben]
 bild = "/uploads/2019/11/11/tl-fuhrpark.jpg"
-content = "<p></p>"
+content = "<p>Willkommen bei den Spezialisten</p>"
 link = ""
 linkbeschriftung = ""
-titel = "Willkommen bei den Spezialisten"
+titel = ""
 [unternehmen]
 bild = "/uploads/2019/07/19/lkw_bild.png"
 content = "<blockquote><blockquote><h2>Unsere Vision steht seit über <strong>30 Jahren</strong> für Flexibilität und Zuverlässigkeit. Den Blick nach vorne gerichtet setzen wir unsere <strong>Expertise </strong>dafür ein, dass unsere Kunden trotz höchster Anforderungen noch erfolgreicher werden.</h2><h2>#Wir l[i]eben Logistik</h2></blockquote></blockquote>"
