@@ -14,7 +14,7 @@ layout = "jobs_single"
 seo_description = ""
 untertitel = "<p>Kraftfahrer im Bereich Pflanzentransport (m|w|d)</p>"
 [button]
-beschriftung = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
-email = "dispo@tl-krautmann.de"
+beschriftung = "Kraftfahrer im Bereich Planzentransport (m|w|d)"
+email = "julian.friedl@tl-krautmann.de"
 
 +++
