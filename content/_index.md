@@ -16,7 +16,7 @@ untertitel = "<p></p>"
 beschriftung = "Jetzt bewerben"
 link = "jobbörse.md"
 [jobs.content_links]
-content = "<p>Aktuell suchen wir Kraftfahrer im Bereich Wechselbrücke (m|w|d).</p><p>Was Sie erwarten können:</p>"
+content = "<p>Aktuell suchen wir Kraftfahrer im Bereich Planzentransport (m|w|d).</p><p>Was Sie erwarten können:</p>"
 jobs = []
 [[jobs.content_links.icon_liste]]
 content = "<p>überdurchschnittliche Bezahlung inklusive Sonderzahlungen</p>"
