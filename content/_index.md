@@ -17,7 +17,6 @@ beschriftung = "Jetzt bewerben"
 link = "jobbörse.md"
 [jobs.content_links]
 content = "<p>Aktuell suchen wir Kraftfahrer im Bereich Planzentransport (m|w|d).</p><p>Was Sie erwarten können:</p>"
-jobs = []
 [[jobs.content_links.icon_liste]]
 content = "<p>überdurchschnittliche Bezahlung inklusive Sonderzahlungen</p>"
 icon = "/uploads/2019/07/19/icon-bezahlung.png"
@@ -30,6 +29,9 @@ icon = "/uploads/2019/07/19/icon-unbefristet.png"
 [[jobs.content_links.icon_liste]]
 content = "<p>ein erfahrenes und motiviertes Team</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
+[[jobs.content_links.jobs]]
+link = "jobbörse.md"
+titel = "Kraftfahrer Pflanzentransport"
 [leistungen]
 content = "<p></p>"
 hintergrundbild = "/uploads/2019/07/19/logistik-fuer-sie-background.jpg"
