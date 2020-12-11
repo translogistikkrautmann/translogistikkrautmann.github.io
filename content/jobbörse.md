@@ -15,6 +15,11 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
+bezeichnung_1 = ""
+bezeichnung_2 = ""
+interne_bezeichnung = ""
+link = []
+[[job_liste]]
 bezeichnung_1 = "Kraftfahrer auf 450€ Basis (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = ""
@@ -22,7 +27,7 @@ link = "jobs/kraftfahrer-auf-450-basis-mwd.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d) "
 bezeichnung_2 = ""
-interne_bezeichnung = ""
-link = "jobs/Kraftfahrer im Bereich Wechselbrücke (m|w|d).md"
+interne_bezeichnung = "pflanzentransport"
+link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 
 +++
