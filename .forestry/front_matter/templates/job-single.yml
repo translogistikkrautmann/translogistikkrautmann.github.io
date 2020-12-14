@@ -104,7 +104,7 @@ fields:
   label: Grundgehalt
   description: Optional für Google
   default: 0
-  required: true
+  required: false
   config:
     min: 
     max: 

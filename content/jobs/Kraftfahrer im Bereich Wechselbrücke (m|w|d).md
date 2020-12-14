@@ -5,7 +5,6 @@ arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<p>Zur Verstärkung unseres Teams suchen wir ab 01.02.2021 einen Fahrer (m|w|d) im internationalen Fernverkehr für den Pflanzentransport.</p><p>Du hast bereits Erfahrung im Bereich Pflanzentransport einfahren können? Bist ein echter Profi in Sachen Be- und Entladung von CC-Container? Bist zuverlässig und suchst eine langfristige Beschäftigung innerhalb eines krisensicheren Unternehmens?</p><p>Worauf wartest du noch?</p><p>Herzlich Willkommen bei der Translogistik Krautmann GmbH.</p>"
 bewerbungsfrist = ""
-grundgehalt = ""
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/11/unternhmen_head.jpg"
 hintergrundbild = ""
