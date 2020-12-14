@@ -18,7 +18,7 @@ link = "jobbörse.md"
 [jobs.content_links]
 content = "<p>Wir suchen DICH!</p><p>Was Du erwarten kannst:</p>"
 [[jobs.content_links.icon_liste]]
-content = "<p>überdurchschnittliche Bezahlung inklusive Sonderzahlungen</p>"
+content = "<p>überdurchschnittliche Bezahlung</p>"
 icon = "/uploads/2019/07/19/icon-bezahlung.png"
 [[jobs.content_links.icon_liste]]
 content = "<p>einen hochmodernen Fuhrpark</p>"
