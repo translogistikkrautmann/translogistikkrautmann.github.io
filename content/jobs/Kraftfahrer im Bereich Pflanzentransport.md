@@ -14,7 +14,7 @@ seo_description = ""
 untertitel = "<p>Kraftfahrer im Bereich Pflanzentransport (m|w|d)</p>"
 [button]
 beschriftung = ""
-email = ""
+email = "julian.friedl@tl-krautmann.de"
 [[arbeitsplatzorte]]
 land = "DE"
 ort = "Barbing"
