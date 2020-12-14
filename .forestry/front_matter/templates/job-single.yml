@@ -106,7 +106,7 @@ fields:
   default: 0
   required: false
   config:
-    min: 
+    min: 0
     max: 
     step: 
 - name: grundgehalt_pro
