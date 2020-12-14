@@ -24,7 +24,7 @@ icon = "/uploads/2019/07/19/icon-bezahlung.png"
 content = "<p>einen hochmodernen Fuhrpark</p>"
 icon = "/uploads/2019/07/19/icon-interessant.png"
 [[jobs.content_links.icon_liste]]
-content = "<p>unbefristetes Arbeitsverhältnis</p>"
+content = "<p>diverse Sonderzahlungen</p>"
 icon = "/uploads/2019/07/19/icon-unbefristet.png"
 [[jobs.content_links.icon_liste]]
 content = "<p>ein erfahrenes und motiviertes Team</p>"
