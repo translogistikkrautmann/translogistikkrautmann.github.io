@@ -16,7 +16,7 @@ untertitel = "<p></p>"
 beschriftung = "Jetzt bewerben"
 link = "jobbörse.md"
 [jobs.content_links]
-content = "<p>Was Sie erwarten können:</p>"
+content = "<p>Wir suchen DICH!</p><p>Was Du erwarten kannst:</p>"
 [[jobs.content_links.icon_liste]]
 content = "<p>überdurchschnittliche Bezahlung inklusive Sonderzahlungen</p>"
 icon = "/uploads/2019/07/19/icon-bezahlung.png"
