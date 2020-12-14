@@ -27,7 +27,7 @@ icon = "/uploads/2019/07/19/icon-interessant.png"
 content = "<p>diverse Sonderzahlungen</p>"
 icon = "/uploads/2019/07/19/icon-unbefristet.png"
 [[jobs.content_links.icon_liste]]
-content = "<p>ein Team das DICH und deine Leistung anerkennt!</p>"
+content = "<p>eine TEAMorientierte Kultur</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
