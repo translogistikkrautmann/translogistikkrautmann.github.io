@@ -38,7 +38,7 @@ titel = "Verbesserung und Wachstum"
 content = "<p>Unsere Vision steht seit 30 Jahren für Flexibilität und Zuverlässigkeit. Den Blick nach vorn gerichtet setzen wir unsere Expertise dafür ein, dass unsere Kunden trotz höchster Anforderungen noch erfolgreicher werden.</p>"
 titel = "Langfristigkeit und Beständigkeit"
 [[werte]]
-content = "<p>Wir betrachten es als unsere unternehmerische Verpflichtung, Verantwortung in unseren Wertschöpfungsketten zu übernehmen und Veränderungen anzustoßen, wo sie am dringlichsten gebraucht werden.</p><p class=\"MsoNormal\"></p>"
+content = "<p>Wir betrachten es als unsere unternehmerische Verpflichtung, Verantwortung in unseren Wertschöpfungsketten zu übernehmen und Veränderungen anzustoßen, wo sie am dringlichsten gebraucht werden.</p>"
 titel = "Umwelt und Natur"
 
 +++
