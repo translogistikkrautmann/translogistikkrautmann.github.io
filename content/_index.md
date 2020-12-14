@@ -34,7 +34,7 @@ link = "jobbörse.md"
 titel = "Kraftfahrer auf 450€ Basis (m|w|d)"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
-titel = "Kraftfahrer Pflanzentransport"
+titel = "Kraftfahrer im Pflanzentransport (m|w|d)"
 [leistungen]
 content = "<p></p>"
 hintergrundbild = "/uploads/2019/07/19/logistik-fuer-sie-background.jpg"
