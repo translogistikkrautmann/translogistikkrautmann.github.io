@@ -17,12 +17,6 @@ name = "Markus Krautmann"
 position = "Geschäftsführung"
 tel = ""
 [[ansprechpartner]]
-email = "Julian.Friedl@tl-krautmann.de"
-fax = ""
-name = "Julian Friedl"
-position = "Ass. Geschäftsführung"
-tel = "+49 (0) 94 01 / 53 94 4 - 50"
-[[ansprechpartner]]
 email = "Rocco.Roebisch@tl-krautmann.de"
 fax = ""
 name = "Rocco Röbisch"
