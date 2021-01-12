@@ -17,12 +17,6 @@ name = "Markus Krautmann"
 position = "Geschäftsführung"
 tel = ""
 [[ansprechpartner]]
-email = "Rocco.Roebisch@tl-krautmann.de"
-fax = ""
-name = "Rocco Röbisch"
-position = "Disponent | Fuhrparkleitung"
-tel = "+49 (0) 94 01 / 53 94 4 - 40"
-[[ansprechpartner]]
 email = "Petra.Mueller@tl-krautmann.de"
 fax = ""
 name = "Petra Müller"
@@ -34,5 +28,11 @@ fax = ""
 name = "Maria Feldmeyer"
 position = "Lieferanten | Qualitätsmanagement"
 tel = "+49 (0) 94 01 / 53 94 4 - 80"
+[[ansprechpartner]]
+email = "Rocco.Roebisch@tl-krautmann.de"
+fax = ""
+name = "Rocco Röbisch"
+position = "Disponent | Fuhrparkleitung"
+tel = "+49 (0) 94 01 / 53 94 4 - 40"
 
 +++
