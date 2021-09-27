@@ -38,7 +38,7 @@ tel = "+49 (0) 94 01 / 53 94 4 - 50"
 email = "Rocco.Roebisch@tl-krautmann.de"
 fax = ""
 name = "Rocco Röbisch"
-position = "Disponent | Fuhrparkleitung"
+position = "Disposition | Fuhrparkleitung"
 tel = "+49 (0) 94 01 / 53 94 4 - 40"
 
 +++
