@@ -29,12 +29,6 @@ name = "Maria Feldmeyer"
 position = "Lieferanten | Qualitätsmanagement"
 tel = "+49 (0) 94 01 / 53 94 4 - 80"
 [[ansprechpartner]]
-email = "Gregor.Nickels@tl-krautmann.de"
-fax = ""
-name = "Gregor Nickels"
-position = "Betriebsleiter"
-tel = "+49 (0) 94 01 / 53 94 4 - 50"
-[[ansprechpartner]]
 email = "Rocco.Roebisch@tl-krautmann.de"
 fax = ""
 name = "Rocco Röbisch"
