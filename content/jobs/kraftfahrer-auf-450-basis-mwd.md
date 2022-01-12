@@ -4,7 +4,6 @@ anmerkung_arbeitsplatzort = ""
 art_der_beschaeftigung = "PART_TIME"
 beschreibung = "<h2>Nebenbei 500 Pferdestärken bändigen?</h2><p>Du bist auf der Suche nach einer Nebenbeschäftigung und hast bereits Erfahrungen in unserer Branche eingefahren? Zuverlässigkeit, Flexibilität und Verantwortungsbewusstsein sind für dich selbstverständlich? Dann begrüßen wir dich herzlich im Team der Translogistik Krautmann GmbH. </p>"
 bewerbungsfrist = ""
-draft = true
 grundgehalt = 450
 grundgehalt_pro = "MONTH"
 header_bild = "/uploads/2019/11/05/AdobeStock_100794061.jpeg"
