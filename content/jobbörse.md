@@ -17,7 +17,7 @@ weight = 2
 [[job_liste]]
 bezeichnung_1 = ""
 bezeichnung_2 = "Speditionskaufmann/frau m/w/d"
-interne_bezeichnung = ""
+interne_bezeichnung = "Speditionskaufmann/frau m/w/d"
 link = "jobs/Speditionskaufmann/frau.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
