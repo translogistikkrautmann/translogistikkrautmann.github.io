@@ -1,6 +1,6 @@
 +++
-anforderungen = ""
-anmerkung_arbeitsplatzort = ""
+anforderungen = "<p>folgt in kürze</p>"
+anmerkung_arbeitsplatzort = "<p>folgt in kürze</p>"
 arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<p>folgt in kürze</p>"
