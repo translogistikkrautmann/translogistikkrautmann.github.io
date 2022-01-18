@@ -5,7 +5,6 @@ arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<p>folgt in kürze</p>"
 bewerbungsfrist = ""
-draft = true
 grundgehalt = 0
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/11/unternhmen_head.jpg"
