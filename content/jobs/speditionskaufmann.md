@@ -1,11 +1,10 @@
 +++
-anforderungen = "<p>folgt in kürze</p>"
+anforderungen = "<ul><li><p>Ihr Können:<br>• Sie verfügen über eine abgeschlossene kaufmännische Ausbildung zum<br>Speditionskaufmann/ -frau oder einer vergleichbaren Qualifikation<br>• Sie konnten bereits erste berufliche Erfolge in der qualifizierten Sachbearbeitung sammeln<br>• Sie sind ein engagierter Teamplayer und erledigen Ihre Aufgaben selbstständig und verantwortungsbewusst</p></li></ul>"
 anmerkung_arbeitsplatzort = "<p>folgt in kürze</p>"
-arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
-beschreibung = "<p>folgt in kürze</p>"
+beschreibung = "<ul><li><p>Ihre Aufgaben:<br>• Unterstützung in der Auftragsbearbeitung und Erstellung der dazugehörigen<br>Dokumente und Stammdatenpflege<br>• Eine freundliche zielgerechte Kommunikation zum Auftraggeber ist für Sie<br>selbstverständlich.<br>• Sie führen administrative Aufgaben sicher und verantwortungsvoll durch</p></li></ul>"
 bewerbungsfrist = ""
-grundgehalt = 0
+grundgehalt = nil
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/11/unternhmen_head.jpg"
 hintergrundbild = ""
@@ -16,5 +15,10 @@ untertitel = "<p>Speditionskaufmann/frau m/w/d</p>"
 [button]
 beschriftung = ""
 email = ""
+[[arbeitsplatzorte]]
+land = "DE"
+ort = "Barbing"
+postleitzahl = "93092"
+strasse = "Fraunhoferstr. 6"
 
 +++
