@@ -15,9 +15,9 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
-bezeichnung_1 = "Speditionskaufmann/frau m/w/d"
-bezeichnung_2 = "Speditionskaufmann/frau m/w/d"
-interne_bezeichnung = "Speditionskaufmann/frau m/w/d"
+bezeichnung_1 = "Speditionskaufmann|frau m|w|d"
+bezeichnung_2 = "Speditionskaufmann|frau m|w|d"
+interne_bezeichnung = "Speditionskaufmann|frau m|w|d"
 link = "jobs/speditionskaufmann.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
