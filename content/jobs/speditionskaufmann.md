@@ -4,7 +4,6 @@ anmerkung_arbeitsplatzort = "<p>Ihr Platz bei uns:<br>Als international agierend
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<ul><li><p>Ihre Aufgaben:<br>• Unterstützung in der Auftragsbearbeitung und Erstellung der dazugehörigen<br>Dokumente und Stammdatenpflege<br>• Eine freundliche zielgerechte Kommunikation zum Auftraggeber ist für Sie<br>selbstverständlich.<br>• Sie führen administrative Aufgaben sicher und verantwortungsvoll durch</p></li></ul>"
 bewerbungsfrist = ""
-draft = true
 grundgehalt = ""
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/11/unternhmen_head.jpg"
