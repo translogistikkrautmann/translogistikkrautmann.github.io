@@ -27,7 +27,7 @@ email = "Maria.Feldmeyer@tl-krautmann.de"
 fax = ""
 name = "Maria Feldmeyer"
 position = "Lieferanten | Qualitätsmanagement"
-tel = "+49 (0) 94 01 / 53 94 4 - 80"
+tel = "+49 (0) 94 01 / 53 94 4 - 50"
 [[ansprechpartner]]
 email = "Rocco.Roebisch@tl-krautmann.de"
 fax = ""
