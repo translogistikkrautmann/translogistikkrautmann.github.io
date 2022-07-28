@@ -15,15 +15,15 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
+bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
+bezeichnung_2 = ""
+interne_bezeichnung = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
+link = "jobs/Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf.md"
+[[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = "Wechselbrücke"
 link = "jobs/Kraftfahrer im Bereich Wechselbrücke (m|w|d).md"
-[[job_liste]]
-bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d) "
-bezeichnung_2 = ""
-interne_bezeichnung = "pflanzentransport"
-link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer auf 450€ Basis (m|w|d)"
 bezeichnung_2 = ""
