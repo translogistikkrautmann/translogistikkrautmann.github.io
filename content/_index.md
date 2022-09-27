@@ -1,4 +1,5 @@
 +++
+draft = true
 seo_description = "Mit unserem modernen Fuhrpark  und den fachlichen Kompetenzen aus 30 Jahren Erfahrung sind wir Ihr Partner für Transporte in den Bereichen:lebensmittel Transport, temperaturgeführter Transport, Labor- und Pharmatransport, nationaler- und internationaler Transport, Stückguttransport, Terminfracht, Linien- und Verteilerverkehr, Papier- und Kartonagentransport, Schüttguttransport, Kleintransport."
 title = "Home"
 type = "page"
