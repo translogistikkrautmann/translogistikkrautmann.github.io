@@ -173,7 +173,5 @@ fields:
   hidden: true
   default: jobs_single
 pages:
-- content/jobs/Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf.md
 - content/jobs/Kraftfahrer im Bereich Pflanzentransport.md
-- content/jobs/Kraftfahrer im Bereich Wechselbrücke (m|w|d).md
 - content/jobs/speditionskaufmann.md
