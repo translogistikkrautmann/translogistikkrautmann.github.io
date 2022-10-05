@@ -5,7 +5,7 @@ fields:
 - name: header_bild
   type: file
   config:
-    maxSize: 250
+    maxSize: 
   label: Header Bild
 - name: untertitel
   type: textarea
@@ -158,7 +158,7 @@ fields:
 - name: hintergrundbild
   type: file
   config:
-    maxSize: 250
+    maxSize: 
   label: Hintergrundbild
 - name: seo
   type: include
