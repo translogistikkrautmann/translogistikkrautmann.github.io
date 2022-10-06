@@ -20,11 +20,6 @@ bezeichnung_2 = ""
 interne_bezeichnung = ""
 link = "jobs/Kraftfahrer nationaler Fernverkehr.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
-bezeichnung_2 = ""
-interne_bezeichnung = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
-link = "jobs/Kraftfahrer-Filialbelieferung-Standort-Regenstauf.md"
-[[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = "Wechselbrücke"
