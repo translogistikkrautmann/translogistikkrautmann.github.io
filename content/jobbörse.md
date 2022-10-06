@@ -15,6 +15,11 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
+bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr"
+bezeichnung_2 = ""
+interne_bezeichnung = ""
+link = "jobs/Kraftfahrer nationaler Fernverkehr.md"
+[[job_liste]]
 bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
 bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
