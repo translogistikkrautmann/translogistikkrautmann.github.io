@@ -17,7 +17,7 @@ weight = 2
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 bezeichnung_2 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
-interne_bezeichnung = ""
+interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
