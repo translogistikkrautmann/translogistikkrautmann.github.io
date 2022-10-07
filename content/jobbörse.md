@@ -15,6 +15,11 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
+bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
+bezeichnung_2 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
+interne_bezeichnung = ""
+link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
+[[job_liste]]
 bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
