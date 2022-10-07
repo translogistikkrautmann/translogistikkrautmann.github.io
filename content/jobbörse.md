@@ -15,9 +15,9 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr"
+bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
 bezeichnung_2 = ""
-interne_bezeichnung = ""
+interne_bezeichnung = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
 link = "jobs/Kraftfahrer nationaler Fernverkehr.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
