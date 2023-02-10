@@ -30,9 +30,9 @@ bezeichnung_2 = ""
 interne_bezeichnung = "Wechselbrücke"
 link = "jobs/Kraftfahrer-Wechselb.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer auf 450€ Basis (m|w|d)"
+bezeichnung_1 = "Kraftfahrer auf 520€ Basis (m|w|d)"
 bezeichnung_2 = ""
-interne_bezeichnung = "Kraftfahrer auf 450"
+interne_bezeichnung = "Kraftfahrer auf 520"
 link = "jobs/kraftfahrer-auf-450-basis-mwd.md"
 
 +++
