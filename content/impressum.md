@@ -23,9 +23,9 @@ Straßen und Verkehrsbehörde
 Altmühlstraße 3  
 93059 Regensburg
 
-Bundesamt für Güterverkehr  
+Bundesamt für Logistik und Mobilität  
 Werderstraße 34  
-50672 Köln 
+50672 Köln
 
 Design & Konzept:  
 [elvira.beck|design](http://elvirabeck-design.de/)
