@@ -1,5 +1,5 @@
 +++
-content = "<p>Seit mehr als 30 Jahren stellt sich die Translogistik Krautmann GmbH erfolgreich den speziellsten Herausforderungen seiner Kunden. Die Voraussetzungen dabei sind immer ein Höchstmaß an Zuverlässigkeit, Flexibilität und Qualität. Um diese weiterhin ausbauen zu können, suchen wir DICH!</p><p><strong><br></strong></p><p></p><p></p>"
+content = "<p>Seit mehr als über 30 Jahren stellt sich die Translogistik Krautmann GmbH erfolgreich den speziellsten Herausforderungen seiner Kunden. Die Voraussetzungen dabei sind immer ein Höchstmaß an Zuverlässigkeit, Flexibilität und Qualität. Um diese weiterhin ausbauen zu können, suchen wir DICH!</p><p><strong><br></strong></p><p></p><p></p>"
 header_bild = "/uploads/2019/11/11/tl_jobboerse.jpg"
 layout = "jobs_landing"
 seo_description = ""
