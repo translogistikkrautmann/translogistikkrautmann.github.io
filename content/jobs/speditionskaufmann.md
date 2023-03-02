@@ -4,7 +4,6 @@ anmerkung_arbeitsplatzort = "<p>Ihr Platz bei uns:<br>Als international agierend
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<ul><li><p><strong>Ihre Aufgaben:</strong><br>- Abwicklung Zahlungsverkehr eigenverantwortlich</p><p>- Firmenbuchhaltung</p><p>- Führung Kassenbuch</p><p>- Mitwirkung bei Monats-, Quartals- und Jahresabschlüssen</p><p>- Vorbereitung und Durchführung der Entgeltabrechnung inkl. aller Meldungen</p></li></ul>"
 bewerbungsfrist = ""
-draft = true
 grundgehalt = nil
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/11/unternhmen_head.jpg"

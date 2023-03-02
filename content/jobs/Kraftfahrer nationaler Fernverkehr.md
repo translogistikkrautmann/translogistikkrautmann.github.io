@@ -5,6 +5,7 @@ arbeitsplatzorte = []
 art_der_beschaeftigung = "FULL_TIME"
 beschreibung = "<p>Wir suchen ab sofort Verstärkung im nationalen Fernverkehr. </p><p></p><p>Wir freuen uns auf deine aussagekräftige Bewerbung oder ein persönliches Kennenlernen.</p><p>Worauf wartest du noch?</p><p>Herzlich Willkommen bei der Translogistik Krautmann GmbH.</p>"
 bewerbungsfrist = ""
+draft = true
 grundgehalt = 0
 grundgehalt_pro = ""
 header_bild = "/uploads/2019/11/05/AdobeStock_100794061.jpeg"
