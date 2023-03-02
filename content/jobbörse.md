@@ -25,11 +25,6 @@ bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
-bezeichnung_2 = ""
-interne_bezeichnung = "Kraftfahrer nationaler Fernverkehr (m|w|d)"
-link = "jobs/Kraftfahrer nationaler Fernverkehr.md"
-[[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = "Wechselbrücke"
