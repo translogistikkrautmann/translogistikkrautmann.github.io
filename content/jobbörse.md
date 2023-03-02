@@ -18,7 +18,7 @@ weight = 2
 bezeichnung_1 = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
 bezeichnung_2 = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
 interne_bezeichnung = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
-link = "jobs/Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit.md"
+link = "jobs/speditionskaufmann.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 bezeichnung_2 = ""
