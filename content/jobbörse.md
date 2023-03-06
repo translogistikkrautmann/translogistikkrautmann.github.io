@@ -16,7 +16,7 @@ parent = "Unternehmen"
 weight = 2
 [[job_liste]]
 bezeichnung_1 = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
-bezeichnung_2 = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
+bezeichnung_2 = ""
 interne_bezeichnung = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
 link = "jobs/speditionskaufmann.md"
 [[job_liste]]
