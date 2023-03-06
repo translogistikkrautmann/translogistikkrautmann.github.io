@@ -173,7 +173,6 @@ fields:
   hidden: true
   default: jobs_single
 pages:
-- content/jobs/Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit.md
 - content/jobs/Kraftfahrer im Bereich Pflanzentransport.md
 - content/jobs/Kraftfahrer nationaler Fernverkehr.md
 - content/jobs/speditionskaufmann.md
