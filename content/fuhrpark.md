@@ -24,9 +24,6 @@ bild = "/uploads/2019/10/30/008.jpg"
 beschriftung = "›› Megazug mit Hubdach"
 bild = "/uploads/2019/10/30/017.jpg"
 [[fahrzeuge]]
-beschriftung = "›› Kippauflieger"
-bild = "/uploads/2019/10/30/032.jpg"
-[[fahrzeuge]]
 beschriftung = "›› Kleintransporter"
 bild = "/uploads/2019/07/24/kleintransporte.jpg"
 [[fahrzeuge]]
