@@ -9,7 +9,7 @@ untertitel = "<p></p>"
 [menu.main]
 weight = 3
 [teaser]
-content = "<ul><li><p>Gas betriebener LKW in Kooperation <br>mit den Firmen Liquind und Volvo.</p></li><li><p>Hochmoderne LKWs mit ausschließlich <br>Euro 6 Norm zur Reduzierung des CO2 Ausstoßes.</p></li><li><p>Kalibrierungsnachweise für Temperatur-<br>schreiber nach EN 13486.</p></li><li><p>Telematiksystem zur Kontrolle und <br>Optimierung des Kraftstoffverbrauchs.</p></li></ul>"
+content = "<p></p><ul><li><p>Hochmoderne LKWs mit ausschließlich <br>Euro 6 Norm zur Reduzierung des CO2 Ausstoßes.</p></li><li><p>Kalibrierungsnachweise für Temperatur-<br>schreiber nach EN 13486.</p></li><li><p>Telematiksystem zur Kontrolle und <br>Optimierung des Kraftstoffverbrauchs.</p></li></ul>"
 hintergrund = "/uploads/2019/11/11/gasneu.jpg"
 [[fahrzeuge]]
 beschriftung = "›› Kühlauflieger"
