@@ -15,11 +15,6 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
-bezeichnung_1 = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
-bezeichnung_2 = ""
-interne_bezeichnung = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
-link = "jobs/speditionskaufmann.md"
-[[job_liste]]
 bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
