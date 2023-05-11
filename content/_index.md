@@ -31,9 +31,6 @@ content = "<p>eine TEAMorientierte Kultur</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
-titel = "Finanz- und Lohnbuchhalter/in (m/w/d) in Voll- oder Teilzeit"
-[[jobs.content_links.jobs]]
-link = "jobbörse.md"
 titel = "Kraftfahrer für Wechselbrücke im Verteilerverkehr (m|w|d)"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
