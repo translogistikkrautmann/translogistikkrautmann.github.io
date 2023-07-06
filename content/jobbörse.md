@@ -23,7 +23,7 @@ link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
 bezeichnung_2 = ""
 interne_bezeichnung = "Filialbelieferung"
-link = "jobs/Kraftfahrer-Filialbelieferung-Standort-Regenstauf.md"
+link = "jobs/Filial.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer auf 520€ Basis (m|w|d)"
 bezeichnung_2 = ""
