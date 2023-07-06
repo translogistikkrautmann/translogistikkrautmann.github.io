@@ -31,7 +31,7 @@ content = "<p>eine TEAMorientierte Kultur</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
-titel = "Kraftfahrer für Wechselbrücke im Verteilerverkehr (m|w|d)"
+titel = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
 titel = "Kraftfahrer auf 450€ Basis (m|w|d)"

@@ -20,10 +20,10 @@ bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer im Bereich Wechselbrücke (m|w|d)"
+bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regenstauf"
 bezeichnung_2 = ""
-interne_bezeichnung = "Wechselbrücke"
-link = "jobs/Kraftfahrer-Wechselb.md"
+interne_bezeichnung = "Filialbelieferung"
+link = "jobs/Kraftfahrer-Filialbelieferung-Standort-Regenstauf.md"
 [[job_liste]]
 bezeichnung_1 = "Kraftfahrer auf 520€ Basis (m|w|d)"
 bezeichnung_2 = ""
