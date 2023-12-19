@@ -340,6 +340,13 @@ footer #subfooter .ui.container {
   color: white!important;
   font-size: 1.7rem;
 }
+#home #homevideo {
+  display: flex;
+  justify-content: center;
+}
+#home #homevideo video {
+  flex: 1 1 auto;
+}
 #home #tobenw {
   color: white;
   padding: 10vh 0 20vh 0;
