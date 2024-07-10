@@ -1,0 +1,1019 @@
+body {
+  font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif, serif;
+  color: #000000;
+  background: white;
+}
+body *:not(i) {
+  font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif important;
+}
+h1 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+}
+h2,
+h3,
+h4 {
+  font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif;
+}
+a {
+  color: #a70000;
+}
+a:hover {
+  text-decoration: underline;
+  color: #a70000;
+}
+.sy-box.topslider {
+  background: #f0f0f0;
+}
+.sy-pager {
+  margin: 0!important;
+  padding: 0.35rem 0 !important;
+}
+.sy-pager li.sy-active a {
+  background: #a70000 !important;
+}
+.sy-pager li a {
+  background: transparent!important;
+  border: 1px solid #a70000;
+}
+blockquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+.wgrey {
+  background: #f0f0f0;
+}
+header {
+  background: white;
+  padding: 2rem 0;
+}
+header #headertelw {
+  background: #a70000;
+  color: white;
+  position: absolute;
+  right: 1rem;
+  top: -2rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header #headertelw a {
+  color: white!important;
+}
+header #headertelw img {
+  margin-right: 0.5rem;
+}
+header #headertelw .elem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+@media (max-width: 720px) {
+  header #headertelw {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100vw;
+    justify-content: space-between;
+  }
+}
+header .headerw {
+  position: relative;
+  display: flex!important;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (max-width: 720px) {
+  header .headerw {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+header .logo {
+  height: 80px;
+  margin: -5px 0 2rem 0;
+}
+@media (max-width: 720px) {
+  header .logo {
+    height: 80px;
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 720px) {
+  header .logow {
+    display: none;
+  }
+}
+header .logomobile {
+  display: none;
+}
+@media (max-width: 720px) {
+  header .logomobile {
+    display: block;
+  }
+}
+header #headermenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 720px) {
+  header {
+    padding: 0 0 1rem 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header #headermenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+#ebd {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.headermenuitem {
+  flex: 0 1 auto;
+  color: #000000 !important;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  word-wrap: none;
+  white-space: nowrap;
+  position: relative;
+  z-index: 100;
+  border-bottom: 2px solid transparent;
+}
+@media (max-width: 720px) {
+  .headermenuitem {
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+}
+.headermenuitem:hover {
+  color: #a70000;
+}
+.headermenuitem:hover a {
+  color: #a70000 !important;
+}
+.headermenuitem:hover a span {
+  padding: 0;
+  margin: 0 1em;
+  border-bottom: 2px solid #a70000;
+}
+.headermenuitem:hover .sub-menu {
+  height: auto;
+  padding: 1rem;
+}
+.headermenuitem.active {
+  color: #a70000;
+}
+.headermenuitem.active a {
+  color: #a70000 !important;
+}
+.headermenuitem.active a span {
+  border-bottom: 2px solid #a70000;
+  margin: 0 1em;
+  padding: 0;
+}
+@media (max-width: 720px) {
+  .headermenuitem.active .sub-menu {
+    height: auto;
+    padding: 1rem;
+  }
+}
+@media (max-width: 720px) and (max-width: 720px) {
+  .headermenuitem.active .sub-menu {
+    flex-direction: row;
+    top: 2.1rem !important;
+    margin-left: -1rem;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 1rem 1em 1rem!important;
+    background: #ffffff;
+  }
+}
+.headermenuitem a {
+  color: #000000 !important;
+  text-decoration: none!important;
+}
+.headermenuitem a span {
+  margin: 0 1em;
+}
+@media (max-width: 720px) {
+  .headermenuitem a span {
+    border: none;
+    padding: 0;
+  }
+}
+.headermenuitem .sub-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  top: 2.5rem !important;
+  padding: 1rem 0 0 0!important;
+}
+.headermenuitem .sub-menu .sub-menu-item {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 0 1rem;
+}
+@media (max-width: 720px) {
+  .headermenuitem .sub-menu .sub-menu-item {
+    background: transparent;
+  }
+}
+.headermenuitem .sub-menu .sub-menu-item > a {
+  color: #000000 !important;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.headermenuitem .sub-menu .sub-menu-item > a:hover {
+  color: #a70000 !important;
+}
+@media (max-width: 720px) {
+  .headermenuitem .sub-menu .sub-menu-item > a {
+    font-size: 1rem;
+  }
+  .headermenuitem .sub-menu .sub-menu-item > a.active {
+    color: #a70000 !important;
+  }
+}
+.imggal .column {
+  padding: 0.25rem !important;
+}
+.imggal .gimg {
+  cursor: pointer;
+  padding-top: 100%;
+}
+.imggal .gimg.h {
+  padding-top: calc(200% + 10rem);
+}
+.imggal .gimg.hs {
+  padding-top: calc(100% + 1rem);
+}
+.imggal .gimg.w {
+  padding-top: calc(50%);
+}
+.imggal .gimg.wl {
+  padding-top: calc(75%);
+}
+.imggal .gimg.ws {
+  padding-top: calc(33.3%);
+}
+footer {
+  display: block;
+  position: relative;
+  background: white;
+  padding: 4rem 0 0 0;
+}
+footer .logo {
+  width: 100%;
+}
+footer .column.links {
+  padding: 1rem 2rem!important;
+}
+footer .column.links h4 {
+  padding: 2rem 0 0 0;
+}
+footer .column.links ul {
+  padding: 0;
+  margin: 0;
+}
+footer .column.links ul li {
+  list-style: none;
+  color: #000000;
+}
+footer .column.links ul li a {
+  color: #000000;
+}
+footer #subfooter {
+  padding: 0.5rem 0;
+  background: black;
+  margin-top: 2rem;
+}
+footer #subfooter a {
+  color: white!important;
+}
+footer #subfooter .footernav {
+  display: flex;
+}
+footer #subfooter .footernav > * {
+  padding: 0 0.5rem;
+  border-right: 1px solid white;
+}
+footer #subfooter .footernav > *:last-child {
+  border: none;
+}
+footer #subfooter .ui.container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  footer #subfooter .ui.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer #subfooter .ui.container .ebdf {
+    margin-top: 1rem;
+  }
+}
+.btnlnk {
+  padding: 1rem 2rem;
+  background: #a70000;
+  color: white!important;
+  font-size: 1.7rem;
+}
+#home #homevideo {
+  display: flex;
+  justify-content: center;
+}
+#home #homevideo video {
+  flex: 1 1 auto;
+}
+#home #tobenw {
+  color: white;
+  padding: 10vh 0 20vh 0;
+}
+#home #tobenw h2 {
+  font-weight: bold;
+  font-size: 3.5vh;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+#home #tobenw .content {
+  font-size: 1.4rem;
+  width: 50%;
+  margin-bottom: 4rem;
+}
+@media (max-width: 720px) {
+  #home #tobenw {
+    padding: 1rem 0 2rem 0;
+  }
+  #home #tobenw .content {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+#home #untw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+}
+#home #untw img {
+  max-width: 100%;
+}
+#home #untw h2 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 0;
+}
+#home #untw h1 {
+  margin: 1rem 0;
+  font-size: 4rem;
+}
+#home #untw h1 strong {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  #home #untw h1 {
+    font-size: 2.5rem;
+  }
+}
+#home #jobsw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  padding: 6rem 0 0 0;
+  color: #000000;
+}
+@media (max-width: 720px) {
+  #home #jobsw {
+    padding: 0 0 0;
+  }
+}
+#home #jobsw .cl ul {
+  margin: 0;
+  padding: 0;
+}
+#home #jobsw .cl ul li {
+  margin: 0 0 1rem 0;
+}
+#home #jobsw .cl ul li a {
+  color: #000000;
+}
+#home #jobsw .cl ul li a:hover {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl ul li {
+    padding: 0;
+  }
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl ul {
+    padding: 0 0 0 1em;
+  }
+}
+#home #jobsw .cl .icnlist {
+  display: flex;
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl .icnlist {
+    flex-wrap: wrap;
+  }
+}
+#home #jobsw .cl .icnlist .icn {
+  padding: 1rem;
+  max-width: 20%;
+  position: relative;
+  text-align: center;
+}
+#home #jobsw .cl .icnlist .icn img {
+  max-width: 100%;
+}
+@media (max-width: 720px) {
+  #home #jobsw .cl .icnlist .icn {
+    max-width: 48%;
+  }
+  #home #jobsw .cl .icnlist .icn img {
+    max-width: 50%;
+  }
+}
+#home #jobsw .tw {
+  padding: 0 0 2rem 6rem;
+  background: url(pfr.png) left bottom no-repeat;
+  background-size: contain;
+}
+@media (max-width: 720px) {
+  #home #jobsw .tw {
+    background: none;
+    padding: 0 0 2rem 0;
+  }
+}
+#home #jobsw h2 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 4rem 0 0 0;
+  color: #000000;
+}
+#home #jobsw h3 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: #000000;
+}
+#home #jobsw h3 strong {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  #home #jobsw h3 {
+    font-size: 2.5rem;
+  }
+}
+#home #jobsw .ui.container {
+  display: flex!important;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  #home #jobsw .ui.container {
+    flex-direction: column-reverse;
+  }
+}
+#home #jobsw .btnlnk {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+}
+#home #fpw {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  padding: 0 0 22vw 0;
+  color: white;
+}
+@media (max-width: 720px) {
+  #home #fpw {
+    padding: 0 0 42vw 0;
+  }
+}
+#home #fpw .tw {
+  padding-right: 6rem;
+  background: url(pfw.png) right top no-repeat;
+  background-size: contain;
+}
+#home #fpw h2 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 4rem 0 0 0;
+  color: white;
+}
+#home #fpw h3 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: white;
+}
+#home #fpw h3 strong {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  #home #fpw h3 {
+    font-size: 2.5rem;
+  }
+}
+#home #fpw .ui.container {
+  display: flex!important;
+  justify-content: flex-start;
+}
+@media (max-width: 720px) {
+  #home #fpw .ui.container {
+    flex-direction: column;
+  }
+}
+#home #fpw .ui.container ul {
+  margin: 0;
+  padding: 4rem 0 0 2rem;
+  columns: 3;
+}
+@media (max-width: 720px) {
+  #home #fpw .ui.container ul {
+    columns: 2;
+    padding: 0;
+  }
+}
+#home #fpw .ui.container ul li {
+  padding: 0.5rem 0 0.5rem 2rem;
+  list-style-type: none;
+  display: flex;
+  font-size: 1.1rem;
+}
+#home #fpw .ui.container ul li::before {
+  content: '››';
+  color: white;
+  margin: 0 0.5rem 0 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+#home #lew {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+  color: white;
+}
+#home #lew .btnlnk {
+  position: absolute;
+  bottom: -5.5rem;
+}
+@media (max-width: 720px) {
+  #home #lew .btnlnk {
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+  }
+}
+#home #lew img {
+  max-width: 100%;
+}
+#home #lew h2 {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 0;
+  color: white;
+}
+#home #lew h3 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  font-size: 4rem;
+  color: white;
+}
+#home #lew h3 strong {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  #home #lew h3 {
+    font-size: 2.5rem;
+  }
+}
+#home #lew .icnlist {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#home #lew .icnlist .icn {
+  position: relative;
+  width: 18%;
+}
+#home #lew .icnlist .icn h4 {
+  margin: 0;
+}
+@media (max-width: 720px) {
+  #home #lew .icnlist .icn {
+    width: 48%;
+  }
+}
+#home #lew .ui.container {
+  position: relative;
+}
+.nopadding {
+  padding: 0!important;
+}
+.subheader .hsubimg {
+  width: 100vw;
+  height: 40vh;
+}
+.subheader .content {
+  text-align: center;
+}
+.subheader .titlesec {
+  width: 70%;
+  background: white;
+  margin-top: -4rem;
+  padding: 2rem;
+}
+@media (max-width: 720px) {
+  .subheader .titlesec {
+    width: 90%;
+    margin-top: -4rem;
+    padding: 1rem;
+  }
+}
+.subheader .titlesecw {
+  display: flex!important;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.subheader h1 {
+  font-family: 'ITC Franklin Gothic LT W01 DmC', Arial, Helvetica, sans-serif;
+  margin: 0 0 0;
+  font-size: 4rem;
+  color: #000000;
+  text-align: center;
+}
+.subheader h1 strong {
+  color: #a70000;
+}
+@media (max-width: 720px) {
+  .subheader h1 {
+    font-size: 2.5rem;
+  }
+}
+.subheader h2 {
+  color: #000000;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin: 0;
+  text-align: center;
+}
+.subpage .grey {
+  background: #f0f0f0;
+}
+.subpage .aplist {
+  margin: 2rem 0 4rem 0;
+  padding: 4rem 0;
+}
+@media (max-width: 720px) {
+  .subpage .aplist {
+    margin: 2rem 0;
+  }
+}
+.subpage.ap .ap1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.subpage.ap .ape .pos {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.subpage.ap .ape .name {
+  font-weight: bold;
+  color: #a70000;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.subpage.ap .ape .tel {
+  background: url(/icon_phone.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+.subpage.ap .ape .fax {
+  background: url(/icon_fax.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+.subpage.ap .ape .email {
+  background: url(/icon_mail.png) left center no-repeat;
+  padding: 0 0 0 1.5rem;
+  background-size: 1rem auto;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.center {
+    margin: 0;
+  }
+}
+.subpage.ap .column.center {
+  margin: -8rem auto;
+}
+.subpage.ap .left,
+.subpage.ap .right {
+  padding: 2rem 4rem;
+}
+.subpage.ap .left div,
+.subpage.ap .right div {
+  text-align: justify;
+}
+@media (max-width: 720px) {
+  .subpage.ap .left h3,
+  .subpage.ap .right h3 {
+    text-align: center!important;
+  }
+}
+.subpage.ap .column.left .ape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end !important;
+  margin: 0 2rem 2rem 0;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.left .ape {
+    align-items: flex-start !important;
+    margin: 0 0 1rem 0;
+  }
+  .subpage.ap .column.left .ape > * {
+    text-align: left!important;
+  }
+}
+.subpage.ap .column.left .ape > * {
+  display: inline-block;
+  text-align: right;
+}
+.subpage.ap .column.left .ape:last-child {
+  margin-bottom: 0;
+}
+.subpage.ap .column.right .ape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start !important;
+  margin: 0 0 2rem 2rem;
+}
+@media (max-width: 720px) {
+  .subpage.ap .column.right .ape {
+    margin: 0 0 1rem 0;
+  }
+}
+.subpage.ap .column.right .ape > * {
+  display: inline-block;
+  text-align: left;
+}
+.subpage.ap .column.right .ape:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 720px) {
+  .subpage.jobs ul {
+    padding: 0;
+  }
+}
+.subpage.jobs li {
+  margin-bottom: 2rem;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 720px) {
+  .subpage.jobs li {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.subpage.jobs li h4 {
+  font-size: 1.6rem !important;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+.subpage.jobs li h3 {
+  font-size: 1.8rem !important;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #a70000;
+}
+.subpage.jobs li .mbutton {
+  background: #a70000;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.subpage.kontakt .content strong {
+  color: #a70000;
+}
+.subpage.kontakt .map {
+  min-height: 80vh;
+  margin-top: 12rem;
+}
+.subpage.kontakt .mapcontentw {
+  display: flex!important;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.subpage.kontakt .mapcontentw .mapcontent {
+  color: white;
+  background-color: #a70000 !important;
+  padding: 4rem 8rem;
+  margin-top: -8rem;
+  font-size: 1.3rem;
+  background: url(pfw.png) right 2rem top no-repeat;
+  background-size: auto 50% ;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt .mapcontentw .mapcontent {
+    padding: 2rem;
+    background: none;
+  }
+}
+.subpage.jobsingle h1 {
+  color: #a70000;
+  font-size: 2.5rem !important;
+}
+.subpage.jobsingle .container.content {
+  padding: 1rem 0;
+}
+.subpage.jobsingle .container.content h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #a70000;
+}
+.subpage.jobsingle .details {
+  padding: 0 0 2rem 0;
+}
+.subpage.jobsingle .details ul {
+  padding: 0;
+}
+.subpage.jobsingle .details > * h4 {
+  margin-top: 2rem;
+  color: #a70000;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+.subpage.unternehmen .werte {
+  margin-top: 4rem!important;
+  padding-bottom: 4rem;
+}
+.subpage.unternehmen .werte h2 {
+  font-size: 1.4rem;
+  color: #a70000;
+}
+.subpage.unternehmen .hist {
+  color: white;
+  background: url(pfw.png) right top no-repeat;
+  padding: 4rem 6rem 4rem 0;
+  text-align: right;
+}
+.subpage.unternehmen .hist h3 {
+  font-size: 3rem;
+}
+.subpage.unternehmen .hist h4 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.subpage.unternehmen .hist .jahre h4 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: normal;
+}
+.subpage.fuhrpark .fzglist {
+  padding: 4rem 0;
+}
+.subpage.fuhrpark .fzg .colimg {
+  padding-top: 100%;
+}
+.subpage.fuhrpark .fzg h3 {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.subpage.fuhrpark .teaser {
+  padding: 4rem 0;
+  color: white;
+  font-size: 1.8rem;
+}
+.subpage.fuhrpark .teaser h2 {
+  font-size: 3.5rem;
+}
+@media (max-width: 720px) {
+  .subpage.fuhrpark .teaser {
+    background-position-x: center!important;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+  }
+  .subpage.fuhrpark .teaser h2 {
+    font-size: 2.5rem;
+  }
+}
+.subpage.logistik .ber {
+  padding: 4rem 0;
+}
+.subpage.logistik .ber .column img {
+  max-width: 100%;
+}
+.subpage.logistik .ber .column h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #a70000;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.1em;
+}
+.subpage.logistik .ber .column h3 p {
+  line-height: 1.1em;
+}
+.subpage.logistik .srv {
+  display: flex!important;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 720px) {
+  .subpage.logistik .srv {
+    width: 100%!important;
+  }
+}
+.subpage.logistik .srv .contentw {
+  padding: 4rem 0 0rem 6rem;
+  margin-bottom: 4rem;
+  background: url(pfw.png) left top no-repeat;
+  background-size: contain;
+}
+.subpage.logistik .srv .contentw h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'ITC Franklin Gothic LT W01 Md', Arial, Helvetica, sans-serif;
+}
+.subpage.logistik .srv .contentw .cols {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.subpage.logistik .srv .contentw .cols > * {
+  width: 250px;
+  margin: 0 2rem 0 0;
+  text-align: center;
+}
+.subpage.logistik .srv .contentw .cols > * img {
+  width: 80%!important;
+}
+.subpage.logistik .srv .contentw .cols h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: normal;
+}
+@media (max-width: 720px) {
+  .subpage.logistik .srv .contentw {
+    background: none;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .subpage.logistik .srv .contentw .cols {
+    width: 100%;
+    justify-content: center;
+  }
+  .subpage.logistik .srv .contentw .cols > * {
+    width: 120px;
+    margin: 0 2rem 1rem 0;
+  }
+  .subpage.logistik .srv .contentw .cols > * img {
+    width: 100%;
+  }
+}
