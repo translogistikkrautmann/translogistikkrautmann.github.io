@@ -31,6 +31,9 @@ content = "<p>eine TEAMorientierte Kultur</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
+titel = "Disponent/-in , Kaufmann/-frau für Speditions- und Logistikdienstleistung, Speditionskaufmann/-frau (m/w/d)"
+[[jobs.content_links.jobs]]
+link = "jobbörse.md"
 titel = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
