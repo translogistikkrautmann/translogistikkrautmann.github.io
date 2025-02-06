@@ -15,16 +15,6 @@ link = "jobbörse.md"
 parent = "Unternehmen"
 weight = 2
 [[job_liste]]
-bezeichnung_1 = "Disponent/-in , Kaufmann/-frau für Speditions- und Logistikdienstleistung, Speditionskaufmann/-frau (m/w/d)"
-bezeichnung_2 = ""
-interne_bezeichnung = "isponent/-in , Kaufmann/-frau für Speditions- und Logistikdienstleistung, Speditionskaufmann/-frau (m/w/d)"
-link = "jobs/dispo.md"
-[[job_liste]]
-bezeichnung_1 = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
-bezeichnung_2 = ""
-interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
-link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
-[[job_liste]]
 bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut"
 bezeichnung_2 = ""
 interne_bezeichnung = "Filialbelieferung"
