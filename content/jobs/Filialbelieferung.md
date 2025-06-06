@@ -13,7 +13,7 @@ hintergrundbild = ""
 jobtitel = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut / Regenstauf / Geisenfeld"
 layout = "jobs_single"
 seo_description = ""
-untertitel = "<p>Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut</p>"
+untertitel = ""
 [button]
 beschriftung = ""
 email = ""
