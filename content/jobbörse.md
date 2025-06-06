@@ -25,7 +25,7 @@ bezeichnung_2 = ""
 interne_bezeichnung = "Kraftfahrer im Bereich Pflanzentransport (m|w|d)"
 link = "jobs/Kraftfahrer im Bereich Pflanzentransport.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut"
+bezeichnung_1 = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut / Regenstauf / Geisenfeld"
 bezeichnung_2 = ""
 interne_bezeichnung = "Filialbelieferung"
 link = "jobs/Filialbelieferung.md"
