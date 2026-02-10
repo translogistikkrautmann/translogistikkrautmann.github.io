@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Krautmann Translogistik</title>
+    <link>http://localhost:1313/jobs/</link>
+    <description>Recent content in Jobs on Krautmann Translogistik</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="http://localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/dispo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/dispo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/filialbelieferung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/filialbelieferung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/kraftfahrer-auf-450-basis-mwd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/kraftfahrer-auf-450-basis-mwd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/kraftfahrer-fernverkehr-kuehl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/kraftfahrer-fernverkehr-kuehl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/kraftfahrer-im-bereich-pflanzentransport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/kraftfahrer-im-bereich-pflanzentransport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/kraftfahrer-wechselb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/kraftfahrer-wechselb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/sachbearbeitung-lohn-gehalt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/sachbearbeitung-lohn-gehalt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/jobs/speditionskaufmann/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/speditionskaufmann/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -31,6 +31,12 @@ content = "<p>eine TEAMorientierte Kultur</p>"
 icon = "/uploads/2019/07/19/icon-team.png"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
+titel = "Kraftfahrer Fernverkehr/Kühl-Planenverkehr (m|w|d)"
+[[jobs.content_links.jobs]]
+link = "jobbörse.md"
+titel = "Sachbearbeitung Lohn- und Gehaltsabrechnung (m/w/d) 603€ Basis"
+[[jobs.content_links.jobs]]
+link = "jobbörse.md"
 titel = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut / Regenstauf / Geisenfeld"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
