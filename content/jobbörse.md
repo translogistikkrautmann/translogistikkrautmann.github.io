@@ -31,9 +31,9 @@ bezeichnung_2 = ""
 interne_bezeichnung = "Filialbelieferung"
 link = "jobs/Filialbelieferung.md"
 [[job_liste]]
-bezeichnung_1 = "Kraftfahrer auf 520€ Basis (m|w|d)"
+bezeichnung_1 = "Kraftfahrer auf 603€ Basis (m|w|d)"
 bezeichnung_2 = ""
-interne_bezeichnung = "Kraftfahrer auf 520"
+interne_bezeichnung = "Kraftfahrer auf 603"
 link = "jobs/kraftfahrer-auf-450-basis-mwd.md"
 
 +++

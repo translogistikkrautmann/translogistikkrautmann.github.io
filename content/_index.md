@@ -40,7 +40,7 @@ link = "jobbörse.md"
 titel = "Kraftfahrer Filialbelieferung (m|w|d) Standort Regensburg / Landshut / Regenstauf / Geisenfeld"
 [[jobs.content_links.jobs]]
 link = "jobbörse.md"
-titel = "Kraftfahrer auf 520€ Basis (m|w|d)"
+titel = "Kraftfahrer auf 603€ Basis (m|w|d)"
 [leistungen]
 content = "<p></p>"
 hintergrundbild = "/uploads/2019/07/19/logistik-fuer-sie-background.jpg"
